@@ -1,0 +1,62 @@
+FROM ubuntu:latest
+
+RUN apt-get update && apt-get install -y tzdata
+RUN apt-get -y install apache2
+RUN apt-get -y install perl
+RUN apt-get -y install curl
+RUN apt-get -y install net-tools
+RUN apt-get -y install netcat
+RUN apt-get -y install vim
+
+# https://httpd.apache.org/docs/2.4/howto/cgi.html
+WORKDIR /usr/lib/cgi-bin
+COPY preface.cgi preface.cgi
+COPY counter.txt counter.txt
+RUN chown www-data:www-data preface.cgi counter.txt
+RUN chmod 755 preface.cgi
+
+# direct ErorrLog to /dev/stderr
+RUN find /etc/apache2 -type f -name '*.conf' \
+  | xargs grep -Rl APACHE_LOG_DIR \
+  | xargs sed -i -E 's/ErrorLog \$\{APACHE_LOG_DIR\}[^ ]+/ErrorLog \/dev\/stderr/'
+
+# direct CustomLOg to /dev/stdout
+RUN find /etc/apache2 -type f -name '*.conf' \
+  | xargs grep -Rl APACHE_LOG_DIR \
+  | xargs sed -i -E 's/CustomLog \$\{APACHE_LOG_DIR\}[^ ]+/CustomLog \/dev\/stdout/'
+
+# enable modules defined in your cgi config
+# your config uses IfModule which means it will only execute if the module is
+# loaded, this means the config will not be applied if the module is not loaded
+RUN a2enmod alias cgid
+
+# copy cgi config
+COPY serve-cgi-bin.conf /etc/apache2/conf-available/
+
+# enable cgi config
+RUN a2enconf serve-cgi-bin
+
+# you probably don't need this
+WORKDIR /etc/apache2/
+RUN echo "ServerName 172.0.0.1" >> /etc/apache2/apache2.conf
+
+#  To avoid the error [ AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+# /var/log/apache2/error.log
+
+# https://geek-university.com/apache/install-apache-on-ubuntu/
+WORKDIR /var/www/html
+COPY copyright.txt copyright.txt
+COPY *.html ./
+COPY AndialySokone.jpg AndialySokone.jpg
+COPY javapubscript.txt javapubscript.txt
+RUN chown www-data:www-data *.html *.txt *.jpg
+COPY PUBIMG PUBIMG
+RUN chown -R www-data:www-data PUBIMG
+
+LABEL maintainer="asokone@thecloudedu.com" \
+      version="1.0"
+
+EXPOSE 80
+
+# prefer entrypoint over run
+ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]

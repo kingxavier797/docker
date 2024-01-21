@@ -1,0 +1,12 @@
+version: '3'
+        # Define which docker-compose version
+        # we are referring to
+services:
+        # define here 1 service web: which is a web app
+        # define in the Dockerfile as apache httpd
+        web:
+                build: .
+        # Refering the build to use local Dockerfile
+                ports:
+                        - "5000:80"
+        # ports “host:container”

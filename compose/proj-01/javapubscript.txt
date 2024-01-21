@@ -1,0 +1,34 @@
+<SCRIPT LANGUAGE="JavaScript">
+	// global variable for current sponsor
+	var sponsor = 0;
+	var numberofpubimages = 10;
+
+	// function to link to appropriate sponsor
+	// (for demonstration, displays frontpub banner instead)
+
+	function GoSponsor() {
+   		window.open("/" + sponsor + ".html");
+		// Take you to a page where you have all sponsor links URL(s).
+		// create a directory call sponsor where 0.html 1.html ....
+		// n.html
+		// each #.html is a web page or a link to our sponsor.
+	}
+
+	// function to rotate image (currently uses numberofpubimages images)
+	function rotate() {
+		if (++sponsor > numberofpubimages) sponsor = 0;
+		document.images[0].src = "/PUBIMG/frontpub-" + sponsor + ".png";
+		// All images in PUBIMG directory that has as beginning of name
+		// frontpub- like frontpub-0.gif frontpub-1.gif ..
+		// frontpub-n.gif
+		// are for commercial in the this website front page.
+		// NOTE: All of them should be GIF FILES.
+
+		window.setTimeout('rotate();', 6000);
+		// Update the images every 5 secondes.
+	}
+</SCRIPT>
+<BODY BACKGROUND="/mytts/IMG/bg.gif" onLoad="window.setTimeout('rotate();',6000);"><A HREF="javascript:GoSponsor();"><IMG SRC="/PUBIMG/line2.jpg"></A>
+<!-- 
+NOTE: L'image line2.jpg est l'image de depart avant que la pub commence a defiler.
+-->

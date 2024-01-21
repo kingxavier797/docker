@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+        web:
+                build: .
+                image: 'oraclelinux:8.2'
+                environment:
+                        - NODE_ENV=production
+                container_name: docker-web-oel82
+# We assign a name to the container
+# to avoid using the default one

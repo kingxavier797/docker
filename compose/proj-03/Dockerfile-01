@@ -1,0 +1,24 @@
+# ------------------------------------------------------------------------------
+# Dockerfile to build Oracle Linux container
+# images based on Oracle Linux 8.2
+# ------------------------------------------------------------------------------
+FROM oraclelinux:8.2
+
+
+RUN dnf install -y httpd
+RUN dnf install -y nodejs
+# With Node.js you can build complex single-page apps, chat rooms, data streaming apps, browser games and even do hardware programming.
+
+
+#RUN mkdir -p /etc/httpd/conf
+WORKDIR /etc/httpd/conf
+RUN echo "ServerName 172.0.0.1" >> httpd.conf
+
+#  To avoid the error [ AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+
+LABEL maintainer="asokone@thecloudedu.com" \
+version="1.0"
+
+EXPOSE 80
+
+ENTRYPOINT /usr/sbin/httpd -D FOREGROUND

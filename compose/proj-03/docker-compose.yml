@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    image: 'oraclelinux:8.2'
+    ports:
+    - "8181:3000"
+    env_file:
+    - ./api.env
+    environment:
+    - NODE_ENV=production

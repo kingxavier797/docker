@@ -1,0 +1,46 @@
+<SCRIPT LANGUAGE="JavaScript">
+	// global variable for current sponsor
+	var sponsor = 0;
+	var numberofpubimages = 18;
+
+	// function to link to appropriate sponsor
+	// (for demonstration, displays frontpub banner instead)
+
+	function GoSponsor() {
+//   		window.open("/.africansponsor/" + sponsor + ".html");
+		// Take you to a page where you have all sponsor links URL(s).
+		// create a directory call sponsor where 0.html 1.html ....
+		// n.html
+		// each #.html is a web page or a link to our sponsor.
+	}
+
+	// function to rotate image (currently uses numberofpubimages images)
+	function rotate() {
+		if (++sponsor > numberofpubimages) sponsor = 0;
+		document.images[0].src = "/.sotelma/PUBIMG/frontpub-" + sponsor + ".gif";
+		// All images in PUBIMG directory that has as beginning of name
+		// frontpub- like frontpub-0.gif frontpub-1.gif ..
+		// frontpub-n.gif
+		// are for commercial in the this website front page.
+		// NOTE: All of them should be GIF FILES.
+
+		window.setTimeout('rotate();', 6000);
+		// Update the images every 5 secondes.
+	}
+
+//	var count = $count;
+//	function Counter(){
+//		window.alert("Vous etes notre visiteur numero : " + count);
+//	}
+
+</SCRIPT>
+
+<BODY BACKGROUND="/.immobilier/IMG/bg.gif" onLoad="window.setTimeout('rotate();',5000);" onClick="GoSponsor();"><A HREF="javascript:GoSponsor();"><IMG SRC="/.immobilier/PUBIMG/line2.jpg"></A>
+
+<!-- This one uses the function Counter()
+<BODY BACKGROUND="/.immobilier/IMG/bkgnd.gif" onLoad="window.setTimeout('rotate();',5000); Counter();" onClick="GoSponsor();"><A HREF="javascript:GoSponsor();"><IMG SRC="/.immobilier/PUBIMG/line2.jpg"></A>
+--->
+        <!-- 
+        NOTE: L'image line2.jpg est l'image de depart avant que la pub commence
+        a defiler.
+        -->

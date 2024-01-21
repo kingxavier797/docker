@@ -1,0 +1,56 @@
+#1) git clone https://github.com/andrewmackrodt/reddit-sandialy.git .
+#2) cat Dockerfile
+
+FROM ubuntu:latest
+
+RUN apt-get update && apt-get install -y tzdata
+RUN apt-get -y install apache2
+RUN apt-get -y install perl
+RUN apt-get -y install curl
+
+# direct ErorrLog to /dev/stderr
+RUN find /etc/apache2 -type f -name '*.conf' \
+  | xargs grep -Rl APACHE_LOG_DIR \
+  | xargs sed -i -E 's/ErrorLog \$\{APACHE_LOG_DIR\}[^ ]+/ErrorLog \/dev\/stderr/'
+
+# direct CustomLOg to /dev/stdout
+RUN find /etc/apache2 -type f -name '*.conf' \
+  | xargs grep -Rl APACHE_LOG_DIR \
+  | xargs sed -i -E 's/CustomLog \$\{APACHE_LOG_DIR\}[^ ]+/CustomLog \/dev\/stdout/'
+
+# enable modules defined in your cgi config
+# your config uses IfModule which means it will only execute if the module is
+# loaded, this means the config will not be applied if the module is not loaded
+RUN a2enmod alias cgid
+
+# copy cgi config
+COPY serve-cgi-bin.conf /etc/apache2/conf-available/
+
+# enable cgi config
+RUN a2enconf serve-cgi-bin
+
+# copy cgi script using chown in same command
+COPY --chown=www-data:www-data example-bash.sh /usr/lib/cgi-bin/example-bash.sh
+
+RUN chmod 755 /usr/lib/cgi-bin/example-bash.sh
+
+# you probably don't need this
+RUN echo "ServerName 172.0.0.1" >> /etc/apache2/apache2.conf
+
+# copy html data using chown in same command
+# use a subdirectory to include the image referenced in your html!
+COPY --chown=www-data:www-data www/ /var/www/html/
+
+LABEL maintainer="asokone@thecloudedu.com" \
+      version="1.0"
+
+EXPOSE 80
+
+# prefer entrypoint over run
+ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+
+
+#3) docker build . -t sandialy
+#4) docker run --rm -it -p 8080:80 sandialy
+#5) docker run -it -p 5000:80 --name sandialy -d sandialy
+#6) curl http://localhost:5000/cgi-bin/example-bash.sh

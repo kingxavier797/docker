@@ -1,0 +1,73 @@
+version: '3'
+
+services:
+        # Defines 2 services below
+        # db: web: and phpmyadmin:
+
+  db:
+            # Define the 2nd service db:
+    build: ./db/
+    #    image: mysql:8.0
+    image: oraclelinux:7-slim
+            # MySQL is a widely used, open-source
+            # relational database management system (RDBMS).
+            # we are using here mySQL 8.0
+            # to be pulled from docker hub
+            # https://hub.docker.com/_/mysql
+    container_name: dbcontainer
+    hostname: dbserver
+            # name out database container
+            #    restart: always
+            # When always is specified,
+            # the container always restarts.
+    command: "--default-authentication-plugin=mysql_native_password"
+            # instruct that the database should run with
+            # native password authentication enables.
+    environment:
+            # set mySQL database varables
+            # see at https://hub.docker.com/_/mysql
+      MYSQL_ROOT_PASSWORD: 1f0rg0t
+      MYSQL_DATABASE: mailitdb
+      MYSQL_USER: apache
+      MYSQL_PASSWORD: apache12
+
+      #      SQL_CLIENT_HOST: webserver
+      #      SQL_CLIENT_USER: apache
+      #      SQL_CLIENT_PASSWORD: apache12
+      #      SQL_CLIENT_CONNECTION_LIMIT: 10
+
+      #      SQL_INTERNAL_HOST: webserver
+      #      SQL_INTERNAL_PORT: 3306
+      #      SQL_INTERNAL_USER: root
+      #      SQL_INTERNAL_PASSWORD: 1f0rg0t
+      #      SQL_INTERNAL_DATABASE: mysql
+      #      SQL_INTERNAL_CONNECTION_LIMIT: 10
+    ports:
+      # <Port exposed> : < MySQL Port running inside container>
+      - '3306:3306'
+    expose:
+      # Opens port 3306 on the container
+      - '3306'
+
+  web:
+    build: ./web/
+    image: oraclelinux:8.2
+            # We are using oraclelinux:8.2
+            # to be pulled from docker hub
+    container_name: webcontainer
+    hostname: webserver
+            # Specify a customed container name,
+            # rather than a default name
+            #    restart: always
+            # When always is specified, 
+            # the container always restarts.
+            #    depends_on:
+            #      - 'db'
+    environment:
+            # wordpress database variables
+      APACHE_HTTP_PORT_NUMBER: 80
+      APACHE_HTTPS_PORT_NUMBER: 443
+    ports:
+            # Our ports mapping <host:container>
+      - 8000:80
+      - 8443:443  

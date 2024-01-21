@@ -1,0 +1,3146 @@
+<!DOCTYPE html>
+<html class="js ishttps w11ready" lang="en-US"><!-- start : Framework/Generic --><!-- start : ocom/common/global/components/framework/head --><head>
+	<!-- start : ocom/common/global/components/head -->
+		<title>Cloud Infrastructure | Oracle</title>
+		<meta name="Title" content="Cloud Infrastructure | Oracle">
+	
+			<meta name="Description" content="Oracle Cloud Infrastructure has reimagined cloud for the most important applications enterprises. It runs with a Generation 2 offering that has consistent high performance and unmatched governance and security controls.">
+		
+	<meta name="Keywords" content="Cloud, cloud infrastructure, Oracle cloud, cloud platform, infrastructure as a service, generation 2">
+	
+	<meta name="siteid" content="us">
+	<meta name="countryid" content="US">
+	<meta name="robots" content="index, follow">
+	<meta name="country" content="United States">
+	<meta name="Language" content="en">
+	<meta name="Updated Date" content="2020-08-13T16:12:22Z">
+	
+	<script type="text/javascript" async="" src="index_files/infinity_click_tracking_ocom.js"></script><script type="text/javascript" async="" src="index_files/infinity_common.js"></script><script type="text/javascript" async="" src="index_files/wtid.txt"></script><script type="text/javascript" async="" src="index_files/elqCfg.js"></script><script async="" src="index_files/bk-coretag.js"></script><script>
+// akam-sw.js install script version 1.3.3
+"serviceWorker"in navigator&&"find"in[]&&function(){var e=new Promise(function(e){"complete"===document.readyState||!1?e():(window.addEventListener("load",function(){e()}),setTimeout(function(){"complete"!==document.readyState&&e()},1e4))}),n=window.akamServiceWorkerInvoked,r="1.3.3";if(n)aka3pmLog("akam-setup already invoked");else{window.akamServiceWorkerInvoked=!0,window.aka3pmLog=function(){window.akamServiceWorkerDebug&&console.log.apply(console,arguments)};function o(e){(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"sm.sw.s":e,"sm.sw.v":r}])}var i="/akam-sw.js",a=new Map;navigator.serviceWorker.addEventListener("message",function(e){var n,r,o=e.data;if(o.isAka3pm)if(o.command){var i=(n=o.command,(r=a.get(n))&&r.length>0?r.shift():null);i&&i(e.data.response)}else if(o.commandToClient)switch(o.commandToClient){case"enableDebug":window.akamServiceWorkerDebug||(window.akamServiceWorkerDebug=!0,aka3pmLog("Setup script debug enabled via service worker message"),p());break;case"boomerangMQ":o.payload&&(window.BOOMR_mq=window.BOOMR_mq||[]).push(o.payload)}aka3pmLog("akam-sw message: "+JSON.stringify(e.data))});var t=function(e){return new Promise(function(n){var r,o;r=e.command,o=n,a.has(r)||a.set(r,[]),a.get(r).push(o),navigator.serviceWorker.controller&&(e.isAka3pm=!0,navigator.serviceWorker.controller.postMessage(e))})},c=function(e){return t({command:"navTiming",navTiming:e})},s=null,m={},d=function(){var e=i;return s&&(e+="?othersw="+encodeURIComponent(s)),function(e,n){return new Promise(function(r,i){aka3pmLog("Registering service worker with URL: "+e),navigator.serviceWorker.register(e,n).then(function(e){aka3pmLog("ServiceWorker registration successful with scope: ",e.scope),r(e),o(1)}).catch(function(e){aka3pmLog("ServiceWorker registration failed: ",e),o(0),i(e)})})}(e,m)},g=ServiceWorkerContainer.prototype.register;if(ServiceWorkerContainer.prototype.register=function(n,r){return n.includes(i)?g.call(this,n,r):(aka3pmLog("Overriding registration of service worker for: "+n),s=new URL(n,window.location.href),m=r,navigator.serviceWorker.controller?new Promise(function(n,r){var o=navigator.serviceWorker.controller.scriptURL;if(o.includes(i)){var a=encodeURIComponent(s);o.includes(a)?(aka3pmLog("Cancelling registration as we already integrate other SW: "+s),navigator.serviceWorker.getRegistration().then(function(e){n(e)})):e.then(function(){aka3pmLog("Unregistering existing 3pm service worker"),navigator.serviceWorker.getRegistration().then(function(e){e.unregister().then(function(){return d()}).then(function(e){n(e)}).catch(function(e){r(e)})})})}else aka3pmLog("Cancelling registration as we already have akam-sw.js installed"),navigator.serviceWorker.getRegistration().then(function(e){n(e)})}):g.call(this,n,r))},navigator.serviceWorker.controller){var u=navigator.serviceWorker.controller.scriptURL;u.includes("/akam-sw.js")||u.includes("/akam-sw-preprod.js")||u.includes("/threepm-sw.js")||(aka3pmLog("Detected existing service worker. Removing and re-adding inside akam-sw.js"),s=new URL(u,window.location.href),e.then(function(){navigator.serviceWorker.getRegistration().then(function(e){m={scope:e.scope},e.unregister(),d()})}))}else e.then(function(){window.akamServiceWorkerPreprod&&(i="/akam-sw-preprod.js"),d()});if(window.performance){var w=window.performance.timing,l=w.responseEnd-w.responseStart;c(l)}e.then(function(){t({command:"pageLoad"})});var k=!1;function p(){window.akamServiceWorkerDebug&&!k&&(k=!0,aka3pmLog("Initializing debug functions at window scope"),window.aka3pmInjectSwPolicy=function(e){return t({command:"updatePolicy",policy:e})},window.aka3pmDisableInjectedPolicy=function(){return t({command:"disableInjectedPolicy"})},window.aka3pmDeleteInjectedPolicy=function(){return t({command:"deleteInjectedPolicy"})},window.aka3pmGetStateAsync=function(){return t({command:"getState"})},window.aka3pmDumpState=function(){aka3pmGetStateAsync().then(function(e){aka3pmLog(JSON.stringify(e,null,"\t"))})},window.aka3pmInjectTiming=function(e){return c(e)},window.aka3pmUpdatePolicyFromNetwork=function(){return t({command:"pullPolicyFromNetwork"})})}p()}}();</script>
+<script type="text/javascript">
+		var pageData = pageData || {};
+		//page info
+		pageData.pageInfo = pageData.pageInfo || {};
+		pageData.pageInfo.language = "en";
+		pageData.pageInfo.country = "United States";
+		pageData.pageInfo.pageTitle = "Cloud Infrastructure | Oracle";
+		pageData.pageInfo.description = "Oracle Cloud Infrastructure has reimagined cloud for the most important applications enterprises. It runs with a Generation 2 offering that has consistent high performance and unmatched governance and security controls.";
+		pageData.pageInfo.keywords = "Cloud, cloud infrastructure, Oracle cloud, cloud platform, infrastructure as a service, generation 2";
+		pageData.pageInfo.siteId = "us";
+		pageData.pageInfo.countryId = "US";
+		pageData.pageInfo.updatedDate = "2020-08-13T16:12:22Z";
+	</script>
+	<!-- start : ocom/common/global/components/seo-taxonomy-meta-data-->
+	
+	<script type="text/javascript">
+		var pageData = pageData || {};
+		//taxonmy
+		pageData.taxonomy = pageData.taxonomy || {};
+		pageData.taxonomy.productServices = [];
+		pageData.taxonomy.industry = [];
+		pageData.taxonomy.region = [];
+		pageData.taxonomy.contentType = ["WM178751"];
+		pageData.taxonomy.buyersJourney = [];
+		pageData.taxonomy.revenue = [];
+		pageData.taxonomy.title = [];
+		pageData.taxonomy.audience = [];
+		pageData.taxonomy.persona = [];
+	</script>
+<!-- end : ocom/common/global/components/seo-taxonomy-meta-data-->
+<!-- start : ocom/common/global/components/social-media-meta-tags --><!-- F13v0 -->
+		<meta property="og:title" content="Migration to the Cloud Made Simple">
+			<meta property="og:description" content="Discover the next gen IaaS and PaaS cloud built and optimized specifically to help enterprises run their most demanding workloads securely.">
+		<meta property="og:url" content="https://www.oracle.com/cloud/">
+			<meta property="og:image" content="https://www.oracle.com/a/ocom/img/social-og-oracle-badge.jpg">
+		
+		<!-- /F13v0 -->
+		<!-- F13v1 -->
+		<meta name="twitter:card" content="summary">
+		
+			<meta name="twitter:title" content="Migration to the Cloud Made Simple">
+		
+			<meta name="twitter:description" content="Discover the next gen IaaS and PaaS cloud built and optimized specifically to help enterprises run their most demanding workloads securely.">
+		<meta name="twitter:url" content="https://www.oracle.com/cloud/">
+			<meta name="twitter:image" content="https://www.oracle.com/a/ocom/img/social-og-oracle-badge.jpg">
+		
+	<!-- /F13v1 -->
+<!-- end : ocom/common/global/components/social-media-meta-tags -->
+<!-- start : ocom/common/global/components/seo-hreflang-meta-tags --><link rel="canonical" href="index_files/a_004.html">
+					<link rel="alternate" hreflang="en-AE" href="https://www.oracle.com/ae/cloud/">
+					
+					<link rel="alternate" hreflang="ar-AE" href="https://www.oracle.com/ae-ar/cloud/">
+					
+					<link rel="alternate" hreflang="es-AR" href="https://www.oracle.com/ar/cloud/">
+					
+					<link rel="alternate" hreflang="en-AU" href="https://www.oracle.com/au/cloud/">
+					
+					<link rel="alternate" hreflang="en-BE" href="https://www.oracle.com/be/cloud/">
+					
+					<link rel="alternate" hreflang="pt-BR" href="https://www.oracle.com/br/cloud/">
+					
+					<link rel="alternate" hreflang="en-CA" href="https://www.oracle.com/ca-en/cloud/">
+					
+					<link rel="alternate" hreflang="fr-CA" href="https://www.oracle.com/ca-fr/cloud/">
+					
+					<link rel="alternate" hreflang="de-CH" href="https://www.oracle.com/ch-de/cloud/">
+					
+					<link rel="alternate" hreflang="fr-CH" href="https://www.oracle.com/ch-fr/cloud/">
+					
+					<link rel="alternate" hreflang="es-CL" href="https://www.oracle.com/cl/cloud/">
+					
+					<link rel="alternate" hreflang="zh-CN" href="https://www.oracle.com/cn/cloud/">
+					
+					<link rel="alternate" hreflang="es-CO" href="https://www.oracle.com/co/cloud/">
+					
+					<link rel="alternate" hreflang="cs-CZ" href="https://www.oracle.com/cz/cloud/">
+					
+					<link rel="alternate" hreflang="de-DE" href="https://www.oracle.com/de/cloud/">
+					
+					<link rel="alternate" hreflang="en-US" href="index_files/a_004.html">
+					
+					<link rel="alternate" hreflang="es-ES" href="https://www.oracle.com/es/cloud/">
+					
+					<link rel="alternate" hreflang="fr-FR" href="https://www.oracle.com/fr/cloud/">
+					
+					<link rel="alternate" hreflang="en-HK" href="https://www.oracle.com/hk/cloud/">
+					
+					<link rel="alternate" hreflang="en-ID" href="https://www.oracle.com/id/cloud/">
+					
+					<link rel="alternate" hreflang="en-IE" href="https://www.oracle.com/ie/cloud/">
+					
+					<link rel="alternate" hreflang="en-IN" href="https://www.oracle.com/in/cloud/">
+					
+					<link rel="alternate" hreflang="it-IT" href="https://www.oracle.com/it/cloud/">
+					
+					<link rel="alternate" hreflang="ja-JP" href="https://www.oracle.com/jp/cloud/">
+					
+					<link rel="alternate" hreflang="ko-KR" href="https://www.oracle.com/kr/cloud/">
+					
+					<link rel="alternate" hreflang="es-MX" href="https://www.oracle.com/mx/cloud/">
+					
+					<link rel="alternate" hreflang="nl-NL" href="https://www.oracle.com/nl/cloud/">
+					
+					<link rel="alternate" hreflang="en-PH" href="https://www.oracle.com/ph/cloud/">
+					
+					<link rel="alternate" hreflang="pl-PL" href="https://www.oracle.com/pl/cloud/">
+					
+					<link rel="alternate" hreflang="ro-RO" href="https://www.oracle.com/ro/cloud/">
+					
+					<link rel="alternate" hreflang="ru-RU" href="https://www.oracle.com/ru/cloud/">
+					
+					<link rel="alternate" hreflang="en-SA" href="https://www.oracle.com/sa/cloud/">
+					
+					<link rel="alternate" hreflang="ar-SA" href="https://www.oracle.com/sa-ar/cloud/">
+					
+					<link rel="alternate" hreflang="sv-SE" href="https://www.oracle.com/se/cloud/">
+					
+					<link rel="alternate" hreflang="en-SG" href="https://www.oracle.com/sg/cloud/">
+					
+					<link rel="alternate" hreflang="sk-SK" href="https://www.oracle.com/sk/cloud/">
+					
+					<link rel="alternate" hreflang="tr-TR" href="https://www.oracle.com/tr/cloud/">
+					
+					<link rel="alternate" hreflang="zh-TW" href="https://www.oracle.com/tw/cloud/">
+					
+					<link rel="alternate" hreflang="en-GB" href="https://www.oracle.com/uk/cloud/">
+					
+					<link rel="alternate" hreflang="en-ZA" href="https://www.oracle.com/za/cloud/">
+					
+					<meta name="altpages" content="ae,ae-ar,ar,au,be,br,ca-en,ca-fr,ch-de,ch-fr,cl,cn,co,cz,de,es,fr,hk,id,ie,in,it,jp,kr,mx,nl,ph,pl,ro,ru,sa,sa-ar,se,sg,sk,tr,tw,uk,za">
+					<script type="text/javascript">
+						var pageData = pageData || {};
+						//page info
+						pageData.pageInfo = pageData.pageInfo || {};
+						pageData.pageInfo.altPages = "ae,ae-ar,ar,au,be,br,ca-en,ca-fr,ch-de,ch-fr,cl,cn,co,cz,de,es,fr,hk,id,ie,in,it,jp,kr,mx,nl,ph,pl,ro,ru,sa,sa-ar,se,sg,sk,tr,tw,uk,za";
+					</script>
+				<!-- end : ocom/common/global/components/seo-hreflang-meta-tags -->
+
+	<!-- end : ocom/common/global/components/head -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<!-- start : ocom/common/global/components/framework/layoutAssetHeadInfo -->
+<!-- Container/Display Start -->
+
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- BEGIN OCOM CSS/JS --> 
+
+ <script>
+ !function(){
+ var d=document.documentElement;d.className=d.className.replace(/no-js/,'js');
+ if(document.location.href.indexOf('betamode=') > -1) document.write('<script src="https://www.oracle.com/asset/web/js/ocom-betamode.js"><\/script>');
+ }();
+ </script>
+ 
+ <link data-wscss="" href="index_files/redwood-base.css" rel="stylesheet">
+ <link rel="stylesheet" href="index_files/redwood-styles.css" media="all" data-wscss=""><link href="index_files/redwood-styles.css" rel="null" as="style" onload="this.rel='stylesheet'" onerror="this.rel='stylesheet'">
+ 
+ <noscript>
+ <link href="https://www.oracle.com/asset/web/css/redwood-styles.css" rel="stylesheet">
+ </noscript>
+ 
+ <script src="index_files/redwood-base.js"></script><link data-wsjs="" data-reqjq="" href="index_files/redwood-base.js" rel="preload" as="script">
+ <script src="index_files/redwood-lib.js"></script><link data-wsjs="" data-reqjq="" href="index_files/redwood-lib.js" rel="preload" as="script">
+ 
+ <script data-wsjs="" src="index_files/jquery-min.js" async="" onload="$('head link[data-reqjq][rel=preload]').each(function(){var a = document.createElement('script');a.async=false;a.src=$(this).attr('href');this.parentNode.insertBefore(a, this);});$(function(){$('script[data-reqjq][data-src]').each(function(){this.async=true;this.src=$(this).data('src');});});"></script>
+ <!-- END OCOM CSS/JS -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+<!-- Container/Display end -->
+
+<!-- Container/Display Start -->
+
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+ <!-- www-us HeadAdminContainer -->
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-32.png" sizes="32x32">
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-128.png" sizes="128x128">
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-180.png" sizes="180x180">
+<meta name="msapplication-TileColor" content="#fcfbfa">
+<meta name="msapplication-square70x70logo" content="favicon-128.png">
+<meta name="msapplication-square150x150logo" content="favicon-270.png">
+<meta name="msapplication-TileImage" content="favicon-270.png">
+<meta name="msapplication-config" content="none">
+  <style>
+  #oReactiveChatContainer1 { display:none;}
+  </style>
+  <!--DTM embed code - Header -->
+  <script src="index_files/satelliteLib-e598c5b61e39a10b402e048e87dd27b0f1cd2d4c.js"></script><script type="text/javascript" src="index_files/notice" async="" crossorigin="" id="truste_0.9847286504642049"></script>
+<script type="text/javascript">
+if (location.pathname.indexOf("/ru/") === 0){
+  document.write('\x3Cscript src=//consent.truste.com/notice?domain=oracleru.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&cdn=1&pcookie async crossorigin="">\x3C/script>');
+}
+</script><script>
+/*if(dataLayerObject.page.pageInfo.keywords){
+  var _variation = false;
+  var keywordaArr = dataLayerObject.page.pageInfo.keywords.split(',');
+  console.log(keywordaArr);
+  keywordaArr.forEach(function(ele){
+    console.log(ele);
+    if(ele.trim().indexOf('AA') != -1) {
+      console.log("in if");
+      _variation = ele.trim();
+       dataLayerObject.page.variation = _variation;
+    }
+  });
+  if(_variation){
+     console.log("_variation", _variation);
+    dataLayerObject.page.variation = _variation;
+  }
+}
+*/
+</script><script>_satellite["__runScript1"](function(event, target) {
+/* Function to get profile User Type and login status of User */
+function getUserInfo(){
+	var user = {};
+	
+	if (_satellite.cookie.get('ORA_WWW_MRKT')) { // Check for the cookie - use the ORA_WWW_MRKT first but if that doesn't exist then look to use ORA_UCM_INFO
+		var mrktCookie =  _satellite.cookie.get('ORA_WWW_MRKT');
+    	user.userType = (mrktCookie.toLowerCase().indexOf('employee') > 0 ) ? "O" : "P";
+		user.profileGUID = mrktCookie.split('~')[1].slice(2);
+		user.cookieName = 'www_mrkt';
+	} else if (_satellite.cookie.get('ORA_UCM_INFO')) { // If ORA_WWW_MRKT is not there, then look for the ORA_UCM_INFO cookie
+		var ucmCookie =  _satellite.cookie.get('ORA_UCM_INFO');
+		ucmCookie.split('~')[4] && (
+		  user.userType = (ucmCookie.split('~')[4] .toLowerCase().indexOf('@oracle') > 0) ? "O" : "P"
+		);
+		user.profileGUID = ucmCookie.split('~')[1];
+		user.cookieName = 'ucm_info';
+	} else { // If ora_www_mrkt and ora_ucm_info doesn't exist, its an Unsigned User.
+		user.userType = 'U';
+		user.cookieName = 'NoCookie';
+		user.profileGUID = 'NotSet';
+	}
+  
+    if (_satellite.cookie.get('ORA_WWW_PERSONALIZE')){
+      user.profileInfo = getPersonalizeObject();
+    }
+	return user;
+}	
+	
+var consent_level = _satellite.getVar('trusteConsent'); // Check for User's Truste consent preferences.
+var userInfo =  getUserInfo(); // Read User' profile information.
+
+dataLayerObject.user.isLoggedIn = (userInfo.userType == 'U') ? 'Not Logged In' : 'Logged In'; // Set login status to Data layer.
+
+// Check for Truste consent. Set ORA_WWW_MRKT and ORA_UCM_INFO only if the User has opted in for Functional cookies.
+if ((consent_level.truste_consent.indexOf(0) != -1 || consent_level.truste_consent.indexOf(2) != -1  || consent_level.truste_consent.indexOf(3) != -1) ) {
+  // Assign userType, cookieStatus and profileGUID to User object in Data Layer
+  dataLayerObject.user.userType = userInfo.userType;
+  dataLayerObject.user.cookieStatus = userInfo.cookieName;
+  if (consent_level.truste_consent.indexOf(0) != -1  || consent_level.truste_consent.indexOf(3) != -1) { // Set GUID, if the User consent is implied (consent level - 0) or explicit (consent level - 3)
+    dataLayerObject.user.profileGUID = userInfo.profileGUID;
+    
+    //Set ORA_WWW_PERSONALIZE cookie value 
+    if(userInfo.profileInfo){dataLayerObject.user.profile.profileInfo = userInfo.profileInfo;}
+  } else {  
+    dataLayerObject.user.profileGUID = 'NoConsent';
+    dataLayerObject.user.profile.profileInfo = 'NoConsent';
+  }
+} else {
+  dataLayerObject.user.userType = 'A'; //If no Truste consent, its an Anonymous User.
+  dataLayerObject.user.cookieStatus = 'NoConsent';
+  dataLayerObject.user.profileGUID = 'NoConsent';
+  dataLayerObject.user.profile.profileInfo = 'NoConsent';
+}
+
+// If the TRUSTe preference is not to have advertising OR functional cookies, then don't set Eloqua GUID.
+if ((consent_level.truste_consent.indexOf(0) != -1 || consent_level.truste_consent.indexOf(2) != -1  || consent_level.truste_consent.indexOf(3) != -1) ) {
+  if (_satellite.cookie.get('ELOQUA')){
+    dataLayerObject.user.eloqua.guid = _satellite.cookie.get('ELOQUA').replace('GUID=','');
+  } else {
+    setTimeout (function() {
+      _satellite.cookie.get('ELOQUA') && ( dataLayerObject.user.eloqua.guid = _satellite.cookie.get('ELOQUA').replace('GUID=','') )
+    }, 2000);
+  }
+} else { // No Truste Consent
+   dataLayerObject.user.eloqua.guid = 'NoConsent';
+}
+
+/* Function to check if the User is New or Return visitor, read it from Cookie s_nr */
+if (_satellite.cookie.get('s_nr')) {
+  dataLayerObject.user.isReturning = _satellite.cookie.get('s_nr').split('-')[1] == 'Repeat'? 'Repeat' : 'New';
+} else {
+  setTimeout (function() {
+      _satellite.cookie.get('s_nr') && (dataLayerObject.user.isReturning = _satellite.cookie.get('s_nr').split('-')[1] == 'Repeat'? 'Repeat' : 'New')
+  }, 2000);
+}  
+
+function getPersonalizeObject(){
+  var cookieValue = _satellite.cookie.get('ORA_WWW_PERSONALIZE');
+  var tempObj ={};
+  cookieValue.split('~').forEach(function(v,i){
+    var valArr = v.split(':');
+    if(valArr.length == 2){
+       tempObj[valArr[0]] = valArr[1];
+    }
+  });
+  if(Object.keys(tempObj).length > 0){
+    var obj = {};
+    obj.ind = tempObj.i;
+    obj.role = tempObj.r;
+    obj.reg = tempObj.g;
+    obj.lang = tempObj.l;
+    obj.cSize = tempObj.cs;
+    obj.cName = tempObj.cn;
+    
+    return obj;
+  }else{
+    return cookieValue;
+  }
+}
+});</script><script>_satellite["__runScript2"](function(event, target) {
+var cookieRegistry = [];
+//Get User Details
+function listenCookieChange(cookieName, callback) {
+    setInterval(function() {
+        if (cookieRegistry[cookieName]) {
+            var latestCookieVal = _satellite.cookie.get(cookieName) ? _satellite.cookie.get(cookieName) : 'NA'; 
+            if ( latestCookieVal != cookieRegistry[cookieName]) {
+                cookieRegistry[cookieName] = latestCookieVal;
+                return callback(latestCookieVal);
+            }
+        } else {
+            cookieRegistry[cookieName] = _satellite.cookie.get(cookieName) ? _satellite.cookie.get(cookieName) : 'NA';
+        }
+    }, 1000);
+}
+
+//listen for change in 'notice_gdpr_prefs' cookie and update changes to dataLayerObject
+listenCookieChange('notice_gdpr_prefs', function(cookie) {
+  console.log('Truste Consent Changed');
+  window.dataLayerObject.privacy.consentDecision = window.oracle.truste.api.getGdprConsentDecision().consentDecision;
+  window.dataLayerObject.privacy.consentSource = window.oracle.truste.api.getGdprConsentDecision().source;
+  console.log(window.dataLayerObject);
+});
+
+//add truste and Do Not Track values to dataLayer
+window.dataLayerObject.privacy.consentDecision = _satellite.getVar('trusteConsent')['truste_consent'];
+window.dataLayerObject.privacy.dnt = _satellite.getVar('trusteConsent')['dnt'];
+
+//Set campaigns status to "NoTrack" id DNT enabled
+if(window.dataLayerObject.privacy.dnt === true){
+  window.dataLayerObject.user.campaigns.status = "NoTrack";
+}
+
+//update country code
+window.addEventListener("load", function(){
+  //window.dataLayerObject.privacy.consentSource = window.oracle.truste.api.getGdprConsentDecision().source;
+  window.dataLayerObject.privacy.consentDecision = window.oracle.truste.api.getGdprConsentDecision ? window.oracle.truste.api.getGdprConsentDecision().consentDecision : window.oracle.truste.api.getConsentDecision().consentDecision;
+  window.dataLayerObject.privacy.consentSource = window.oracle.truste.api.getGdprConsentDecision ? window.oracle.truste.api.getGdprConsentDecision().source : window.oracle.truste.api.getConsentDecision().source;
+    if(window.truste != 'undefined') {
+      if (window.truste.eu && window.truste.eu.bindMap && window.truste.eu.bindMap.country){
+        window.dataLayerObject.user.geoCountry = window.truste.eu.bindMap.country;
+      }    
+   }
+}, false);
+});</script>
+ 
+ <!--End-->
+
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+<!-- Container/Display end -->
+
+
+<!-- end : ocom/common/global/components/framework/layoutAssetHeadInfo -->
+
+
+
+  <script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"true","rua.cpush":"true","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-f90d806d-8380-4c50-9146-facee3b0e7bc","rua.cook":"false","rua.ims":"false","rua.ufprl":"true","rua.cfprl":"true"}]);</script>
+  <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="DXNLE-YBWWY-AR74T-WMD99-77VRA",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(c){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"DXNLE-YBWWY-AR74T-WMD99-77VRA";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n="true"=="true"?1:0,t="",a="i27fxotacfgu4xzwz7ea-f-08a178d40-clientnsv4-s.akamaihd.net",i={"ak.v":"28","ak.cp":"82485","ak.ai":parseInt("604074",10),"ak.ol":"0","ak.cr":20,"ak.ipv":4,"ak.proto":"h2","ak.rid":"4383249","ak.r":22768,"ak.a2":n,"ak.m":"dscx","ak.n":"essl","ak.bpcip":"70.190.91.0","ak.cport":48170,"ak.gh":"72.195.165.157","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1597427656","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==NzyXZyksxmKOkoIsDUO5f/r6EfI2yfgD3wD5ETF7R+8IloyDdiq1tWYPKtKH2pAXI7QnefUr6yimoZncGs5q3jiYgwKpUYmGz+ssTJf3sa+ED32ANyY/hsbPCiWf8hRNxBwWE5ojvEPSVVUyWC9a+rwDvvuZzLuKNnlxmJKTjxfpSX9tv05IdjjF2OLO+K6/urjTe/mXzas7TThuO/sc/Yy8VHLJiWOjdCWkBs7b/eqSAAfwuWm9l+gzfj2vkTR7ACIvYhqzdvFPvxZDh2PFqLqWTzWH2s3yTlQ8hMTEKv78O2LLEe/7m+RFz3Rk7GBiml6DA29r++Gv63RZk4k0jk6eEv3SJLHloCoekFFNZxdIXFIUgPqrbK7YXpI1lASkdMKbLge9POWgNPATlO96wEA2EmFNxA7wzm9e5rp+lWw=","ak.pv":"111","ak.dpoabenc":""};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!o.i){var e=BOOMR.subscribe;e("before_beacon",o.av,null,null),e("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script><iframe src="index_files/a_002.html" title="" style="width: 0px; height: 0px; border: 0px none; display: none;"></iframe><script>bazadebezolkohpepadr="74467944"</script><script type="text/javascript" src="index_files/4704bc1.js" defer="defer"></script><script src="index_files/odc.js" async="" type="text/javascript"></script><script src="index_files/atgsvcs.js" type="text/javascript"></script><link href="index_files/oracle-chat.css" rel="stylesheet"><script src="index_files/vsapi.js" type="text/javascript"></script><script type="text/javascript" src="index_files/analytics-production.js" async="true" defer="true"></script><script src="index_files/handlebars-ocom.js" type="text/javascript"></script><script type="text/javascript" src="index_files/common.js" async="true" defer="true"></script><script type="text/javascript" src="index_files/analytics.js" async="true" defer="true"></script><script src="index_files/vsopts.js" type="text/javascript"></script><script type="text/javascript" src="index_files/RightNow.js"></script><script src="index_files/RC3d86db7dd38349388d2438c580b4a06c-source.js" async=""></script><script src="index_files/RCb17aced6778c4b6ba1bbf45aba952fec-source.js" async=""></script><script src="index_files/RCd22796882f26495791e06e75d1eaef2a-source.js" async=""></script><script charset="utf-8" src="index_files/xd.js"></script><script type="text/javascript" async="" src="index_files/js.js"></script><script type="text/javascript" src="index_files/PAGE_LOAD"></script><script charset="utf-8" src="index_files/pp.js"></script><script id="yui__dyn_0" type="text/javascript" charset="utf-8" src="index_files/1"></script><script id="yui__dyn_1" type="text/javascript" charset="utf-8" src="index_files/1_002"></script><script type="text/javascript" src="index_files/4"></script><link id="yui__dyn_2" type="text/css" charset="utf-8" rel="stylesheet" href="index_files/ConditionalChatLink.css"><link id="yui__dyn_4" type="text/css" charset="utf-8" rel="stylesheet" href="index_files/ConditionalChatLink.css"><link id="yui__dyn_5" type="text/css" charset="utf-8" rel="stylesheet" href="index_files/container.css"><link id="yui__dyn_6" type="text/css" charset="utf-8" rel="stylesheet" href="index_files/button.css"><link id="yui__dyn_7" type="text/css" charset="utf-8" rel="stylesheet" href="index_files/ProactiveChat.css"><script type="text/javascript" src="index_files/2"></script></head><!-- end : ocom/common/global/components/framework/head --><!-- start : ocom/common/global/components/framework/layoutAssetStartBodyInfo -->
+	<body class="f20 f20v0 ready ochat_slideout_loaded u10hide yui-skin-sam masked"><iframe id="_yuiResizeMonitor" title="Text Resize Monitor" style="position: absolute; visibility: visible; width: 2em; height: 2em; top: -31px; left: 0px; border-width: 0px;"></iframe><div id="consent_blackbar"></div>
+
+		
+<!-- Container/Display Start -->
+
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- www-us StartBodyAdminContainer -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+<!-- Container/Display end -->
+
+
+		<div class="f20w1">
+
+			
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- U28v1 -->
+<section class="u28 u28v1 u28adj killtransition dropdownloaded" id="u28" data-trackas="header"><span class="u28bttop"></span><span class="u28cover"></span>
+	<div class="u28w1">
+		<div class="cwidth">
+			<div class="u28s1" id="u28s1">
+				<a class="u28home rw-logo" href="https://www.oracle.com/" tabindex="0" data-lbl="logo">home</a>
+				<a class="u28ham u28clickable" href="https://www.oracle.com/universal-menu/" tabindex="0" data-lbl="menu" aria-controls="u28navw1" aria-expanded="false" aria-haspopup="true">nav</a>
+			</div>
+			<div class="u28s2 killtransition">
+				<div class="u28w2">
+					<form name="askoracle" id="askoracle" class="askoracle" data-contentpaths="/content/Web/Shared/Auto-Suggest Panel Event" method="get" action="/search/results">
+						<input type="hidden" name="Nty" value="1">
+						<input type="hidden" name="Dy" value="1">
+						<input type="hidden" name="Ntk" value="SI-ALL5">
+						<input type="hidden" name="cty" value="us">
+						<input type="hidden" name="lang" value="en">
+						<div class="u28w3">
+							<div class="u28logo rw-logo">
+								<span>Oracle</span>
+							</div>
+							<a class="u28-back rw-cv-left" href="#back">
+								<span>Close</span>
+							</a>
+							<a class="u28-searchicon" href="#search" tabindex="-1">
+								<span>Search</span>
+							</a>
+							<span class="u28input">
+								<input id="askoracleinput" name="Ntt" data-prefix="Ask" placeholder="Ask" autocomplete="off" role="" aria-label="Search Oracle.com" tabindex="0" type="text">
+								<span class="u28submit">
+									<input class="u28searchbttn" tabindex="0" type="submit" value="Submit Search">
+								</span>
+							<div class="u28placeholder"><span style="">Ask "How are customers using Oracle Cloud apps and infrastructure?"</span></div><a href="#" class="u28clsSearch"></a></span>
+						</div>
+					</form>
+				<div class="u28suggestw1"><ul class="u28suggest"></ul></div></div>
+
+			</div>
+
+			<nav class="u28s4 u28clickable">
+				<a class="u28search u28navitm" id="u28search" href="#" data-lbl="o-search-menu"><span>Search</span></a>
+				<a href="#" data-lbl="o-products-menu" data-target="products" class="u28navitm">Products</a>
+				<a href="#" data-lbl="o-resources-menu" data-target="resources" class="u28navitm">Resources</a>
+				<a href="#" data-lbl="o-support-menu" data-target="support" class="u28navitm">Support</a>
+			</nav>
+
+			<div class="u28s3" id="u28s3">
+
+				<div class="u28-profile" tabindex="-1">
+					<a href="#" class="u28prof" data-lbl="sign-in-account" tabindex="0" aria-controls="u28-profilew1" aria-label="Sign In" aria-expanded="false" aria-haspopup="true"><div class="acttxt">View Accounts</div></a>
+					<div class="u28-profilew1 right" tabindex="-1" id="u28-profilew1" style="">
+					<span class="u28actbck u28back">Back</span>
+						<span class="u28acttitle">Oracle Account</span>
+						<ul class="u28l-out">
+							<li><a href="https://www.oracle.com/webapps/redirect/signon?nexturl=https://www.oracle.com/cloud/" data-lbl="profile:sign-in-account" class="u28btn1" tabindex="-1">Sign-In</a></li>
+							<li><a href="https://profile.oracle.com/myprofile/account/create-account.jspx" data-lbl="profile:create-account" class="u28btn2" tabindex="-1">Create an Account</a></li>
+						</ul>
+						<ul class="u28l-in">
+							<li><a href="https://www.oracle.com/corporate/contact/help.html" data-lbl="help" tabindex="-1">Help</a></li>
+							<li><a href="javascript:sso_sign_out();" id="u28pfile-sout" data-lbl="signout" tabindex="-1">Sign Out</a></li>
+						</ul>
+						<div class="u28-profilew2">
+							<span class="u28acttitle">Cloud Account</span>
+							<a href="https://www.oracle.com/cloud/sign-in.html" class="u28cloudbg" data-lbl="go-to-cloud-website" tabindex="-1">Sign in to <span> Cloud</span></a>
+							<a href="https://www.oracle.com/cloud/free/?source=:ow:o:h:nav:OHP0625ViewAccountsButton&amp;intcmp=:ow:o:h:nav:OHP0625ViewAccountsButton" class="u28btn2" data-lbl="cta-0625-nav-header-accounts-free-tier-oci" tabindex="-1">Sign Up for Cloud Free Tier</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="u28w4" id="u28w4">
+		<div class="u28w1a u28w5 clstrgt">
+			<div class="u28w6">
+
+				<!-- Search Results -->
+				<div class="u28w8 u28trgt" style="width: 788px; left: 0px;"><ul class="u28skel"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul></div>
+				<div class="u28w9">
+					<div class="u28result u28noresults">
+						<div class="u28rw1">
+							<div class="u28rw2">
+								<h4>No results found</h4>
+								<p>Your search did not match any results.</p>
+								<p>We suggest you try the following to help find what you’re looking for:</p>
+								<ul class="u28w7a">
+									<li>Check the spelling of your keyword search.</li>
+									<li>Use synonyms for the keyword you typed, for example, try “application” instead of “software.”</li>
+									<li>Try one of the popular searches shown below.</li>
+									<li>Start a new search.</li>
+								</ul>
+								<h5>Trending Questions</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<ul class="u28w7">
+		<li>How are customers using Oracle Cloud apps and infrastructure?</li>
+		<li>Analyst Reports</li>
+		<li>College recruiting</li>
+		<li>Working at Oracle</li>
+		<li>Can I take advantage of the cloud in my own data center?</li>
+		<li>HCM</li>
+		<li>Oracle business transformation</li>
+		<li>Try Oracle Cloud for free</li>
+		<li>How can I create an agile supply chain?</li>
+		<li>Blockchain applications</li>
+		<li>Oracle vs AWS</li> 
+		<li>Financials</li>
+	</ul></div>
+		</div>
+
+	</div>
+
+	<nav id="u28nav" class="u28nav u28shortnav bgload" data-trackas="menu" aria-role="menu" tabindex="-1">
+		<a href="#close" class="mnavback u28back icn-close">Close</a>
+	<div class="u28nav-r2 u28navw1 cwidth">
+
+	<!--Products-->
+	<h2 class="rw-ptitle">Products</h2>
+	<div class="u28navw2 u28twoclm u28clm" data-type="products">
+		<div class="u28twoclm u28clm u28clmdiv">
+			<div class="u28t1">
+				<h2>Infrastructure</h2>
+			</div>
+			<div>
+				<ul>
+					<li><h3 class="icn-cloud u28linked"><a href="https://www.oracle.com/cloud/" data-lbl="o-products-menu-infra/oci-cloud">Oracle Cloud Infrastructure</a></h3>
+						<ul>
+							<li><a href="https://www.oracle.com/cloud/free/?source=:ow:o:s:nav:062520GlobalNavProducts&amp;intcmp=:ow:o:s:nav:062520GlobalNavProducts" data-lbl="global-nav-products:cloud-free-tier">Oracle Cloud Free Tier</a></li>
+							<li><a href="https://www.oracle.com/cloud/compute/" data-lbl="o-products-menu-infra/oci-cloud-compute">Compute</a></li>
+							<li><a href="https://www.oracle.com/cloud/storage/" data-lbl="o-products-menu-infra/oci-cloud-storage">Storage</a></li>
+							<li><a href="https://www.oracle.com/cloud/networking/" data-lbl="o-products-menu-infra/oci-cloud-networking">Networking</a></li>
+							<li><a href="https://www.oracle.com/business-analytics/" data-lbl="o-products-menu-infra/oci-bus-analyt">Analytics</a></li>
+							<li><a href="https://www.oracle.com/application-development/" data-lbl="o-products-menu-infra/oci-app-dev">Application Development</a></li>
+							<li><a href="https://www.oracle.com/database/" data-lbl="o-products-menu-infra/oci-database">Cloud Database Services</a></li>
+							<li><a href="https://www.oracle.com/marketingcloud/products/content-and-experience/" data-lbl="o-products-menu-infra/oci-mktg-cloud-prods-cont-exp">Content Management</a></li>
+							<li><a href="https://www.oracle.com/middleware/application-integration/" data-lbl="o-products-menu-infra/oci-mware-data-int">Integration</a></li>
+							<li><a href="https://www.oracle.com/cloud/systems-management/cloud-services.html" data-lbl="o-products-menu-infra/oci-cloud-sys-mgt-cloud-svces">Management and Governance</a></li>
+							<li><a href="https://www.oracle.com/security/" data-lbl="o-products-menu-infra/oci-cloud-security">Security, Identity, and Compliance</a></li>
+							<li><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/homePage.jspx" data-lbl="o-products-menu-infra/oci-cloud-mktplace">Cloud Marketplace</a></li>
+							<li><a href="https://www.oracle.com/cloud/cloud-at-customer/" data-lbl="o-products-menu-infra/oci-eng-sys-exadata-cloud@cust">Cloud@Customer</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li><h3 class="icn-file-web u28linked"><a href="https://www.oracle.com/products/software.html" data-lbl="o-products-menu-software-products">Software</a></h3>
+						<ul>
+							<li><a href="https://www.oracle.com/database/technologies/" data-lbl="o-products-menu-software-database-technologies">Oracle Database</a></li>
+							<li><a href="https://www.oracle.com/java/" data-lbl="o-products-menu-software-java">Java</a></li>
+							<li><a href="https://www.mysql.com/" data-lbl="o-products-menu-software-mysql">MySQL</a></li>
+							
+						</ul>
+					</li>
+					<li><h3 class="icn-push-campaign u28linked"><a href="https://www.oracle.com/it-infrastructure/" data-lbl="o-products-menu-hardware-it-infra">Hardware</a></h3>
+						<ul>
+							<li><a href="https://www.oracle.com/engineered-systems/exadata/" data-lbl="o-products-menu-hardware-eng-sys-exadata">Exadata</a></li>
+							
+						</ul>
+					</li>
+
+					<li><h3 class="icn-certification u28linked"><a href="https://www.oracle.com/autonomous-database/" data-lbl="o-products-menu-featured">Featured Products</a></h3>
+						<ul>
+							<li><a href="https://www.oracle.com/autonomous-database/" data-lbl="o-products-menu-featured-adb">Autonomous Database</a></li>
+							<li><a href="https://www.oracle.com/industries/public-sector/" data-lbl="o-products-menu-featured-gov-cloud">Oracle Cloud for Government</a></li>
+							
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--Right Column-->
+		<div class="u28twoclm u28clm">
+			<div class="u28t1">
+				<h2>Applications</h2>
+			</div>
+			<div>
+				<ul>
+					<li><h3 class="icn-cloud-tag u28linked"><a href="https://www.oracle.com/applications/" data-lbl="o-products-menu-applications">Cloud Applications</a></h3>
+						<ul>					
+							<li><a href="https://www.oracle.com/applications/erp/" data-lbl="o-products-menu-applications-erp">Enterprise Resource Planning</a></li>
+							<li><a href="https://www.oracle.com/applications/performance-management/" data-lbl="o-products-menu-applications-epm">Enterprise Performance Management</a></li>
+							<li><a href="https://www.oracle.com/applications/supply-chain-management/" data-lbl="o-products-menu-applications-scm">Supply Chain and Manufacturing</a></li>
+							<li><a href="https://www.oracle.com/applications/human-capital-management/" data-lbl="o-products-menu-applications-hcm">Human Capital Management</a></li>							
+							<li><a href="https://www.oracle.com/applications/customer-experience/" data-lbl="o-products-menu-applications-customer-experience-cx">Customer Experience (CX) </a></li>
+							<li><a href="https://www.oracle.com/data-cloud/" data-lbl="o-products-menu-applications-data-cloud">Data Cloud</a></li>
+						</ul></li>
+					<li><h3 class="icn-netsuite u28linked"><a href="http://www.netsuite.com/portal/home.shtml" data-lbl="o-products-menu-applications-netsuite">NetSuite</a></h3></li>
+					<li><h3 class="icn-desktop u28linked"><a href="https://www.oracle.com/applications/on-premise-products/" data-lbl="o-products-menu-applications-on-prem">On-Premises Applications</a></h3></li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li><h3 class="icn-industry u28linked"><a href="https://www.oracle.com/industries/" data-lbl="o-products-menu-industry-apps">Industry Applications</a></h3>
+						<ul>
+							<li><a href="https://www.oracle.com/industries/financial-services/" data-lbl="o-products-menu-industry-apps-fin-svces">Banking and Insurance</a></li>
+							<li><a href="https://www.oracle.com/industries/communications/" data-lbl="o-products-menu-industry-apps-communications">Communications</a></li>
+							<li><a href="https://www.oracle.com/industries/construction-engineering/" data-lbl="o-products-menu-industry-apps-const-eng">Engineering and Construction</a></li>
+							<li><a href="https://www.oracle.com/industries/food-beverage/" data-lbl="o-products-menu-industry-apps-food-bev">Food and Beverage</a></li>
+							<li><a href="https://www.oracle.com/industries/healthcare/" data-lbl="o-products-menu-industry-apps-healthcare">Healthcare</a></li>
+							<li><a href="https://www.oracle.com/industries/hospitality/" data-lbl="o-products-menu-industry-apps-hospitality">Hospitality</a></li>
+							<li><a href="https://www.oracle.com/industries/life-sciences/" data-lbl="o-products-menu-industry-apps-lifesciences">Life Sciences</a></li>
+							<li><a href="https://www.oracle.com/industries/public-sector/" data-lbl="o-products-menu-industry-apps-public-sector">Public Sector</a></li>
+							<li><a href="https://www.oracle.com/industries/retail/" data-lbl="o-products-menu-industry-apps-retail">Retail</a></li>
+							<li><a href="https://www.oracle.com/industries/utilities/" data-lbl="o-products-menu-industry-apps-utilities">Utilities</a></li>
+							
+						</ul>
+						
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Resources-->
+	<h2 class="rw-ptitle">Resources</h2>
+
+	<div class="u28navw2 u28fourclm u28clm" data-type="resources">
+		<div>
+			<ul>
+				<li><h3 class="icn-oracle-o u28linked"><a href="https://www.oracle.com/corporate/" data-lbl="o-resources-menu-about-corp">About Oracle</a></h3>
+					<ul>
+						<li><a href="https://www.oracle.com/corporate/analyst-reports.html" data-lbl="o-resources-menu-about-corp-analyst-reports">Analyst Reports</a></li>
+						<li><a href="https://www.oracle.com/corporate/doing-business.html" data-lbl="o-resources-menu-about-corp-biz-practices-doing-business">Business Practices</a></li>
+						<li><a href="https://www.oracle.com/corporate/citizenship/" data-lbl="o-resources-menu-about-corp-respon-citizenship">Corporate Responsibility</a></li>
+						<li><a href="https://www.oracle.com/corporate/security-practices/" data-lbl="o-resources-menu-about-corp-security-practices">Corporate Security Practices</a></li>
+						<li><a href="https://www.oracle.com/customers/" data-lbl="o-resources-menu-about-corp-cust-references">Customer References</a></li>
+						<li><a href="https://investor.oracle.com/home/default.aspx" data-lbl="o-resources-menu-about-corp-investor-rels">Investor Relations</a></li>
+						<li><a href="https://www.oracle.com/corporate/covid-19.html" data-lbl="o-resources-menu-about-covid">Oracle’s response to COVID-19</a></li>
+					</ul>
+				</li>
+				<li><h3 class="icn-star u28linked"><a href="https://www.oracle.com/corporate/careers/" data-lbl="o-resources-menu-careers">Careers</a></h3></li>
+				<li><h3 class="icn-custom-events u28linked"><a href="https://www.oracle.com/events/" data-lbl="o-resources-menu-events">Events</a></h3></li>
+				<li><h3 class="icn-contact-card u28linked"><a href="https://www.oracle.com/news/" data-lbl="o-resources-menu-news">News</a></h3></li>
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-blogger u28linked"><a href="https://blogs.oracle.com/" data-lbl="o-resources-menu-blogs">Blogs</a></h3></li>
+				<li><h3 class="icn-buy u28linked"><a href="https://shop.oracle.com/" data-lbl="o-resources-menu-buy-renew-store">Buy and Renew Online</a></h3></li>
+				<li><h3 class="icn-comment u28linked"><a href="https://community.oracle.com/welcome" data-lbl="o-resources-menu-comm-forums">Community Forums</a></h3></li>
+				<li><h3 class="icn-contact u28linked"><a href="https://www.oracle.com/consulting/" data-lbl="o-resources-menu-consulting">Consulting</a></h3></li>
+				<li><h3 class="icn-file-text u28linked"><a href="https://docs.oracle.com/en/" data-lbl="o-resources-menu-documentation">Documentation</a></h3></li>
+				<li><h3 class="icn-loan-request u28linked"><a href="https://www.oracle.com/products/financing/" data-lbl="o-resources-menu-financing">Financing</a></h3></li>
+				<li><h3 class="icn-download u28linked"><a href="https://www.oracle.com/downloads/" data-lbl="o-resources-menu-sw-downloads">Software Downloads</a></h3></li>
+				<li><h3 class="icn-call-missed-outgoing u28linked"><a href="https://www.oracle.com/support/" data-lbl="o-resources-menu-support-offerings">Support Offerings</a></h3></li>
+				<li><h3 class="icn-reverse-direction u28linked"><a href="https://supportrenewals.oracle.com/apex/f?p=supportrenewal:home:0" data-lbl="o-resources-menu-support-renewals">Support Renewals</a></h3></li>
+
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-education u28linked"><a href="https://education.oracle.com/" data-lbl="o-resources-menu-univ-education">Oracle University</a></h3>
+					<ul>
+						<li><a href="https://learn.oracle.com/ords/launchpad/learn?page=index" data-lbl="o-resources-menu-univ-free-trg">Free Training</a></li>
+						<li><a href="https://education.oracle.com/oracle-cloud-learning-subscriptions" data-lbl="o-resources-menu-univ-digital-online-trg">Digital/Online Training</a></li>
+						<li><a href="https://education.oracle.com/oracle-cloud-guided-learning" data-lbl="o-resources-menu-univ-guided-learning">Guided Learning</a></li>
+						<li><a href="https://education.oracle.com/certification" data-lbl="o-resources-menu-univ-certification">Certification</a></li>
+					</ul>
+				</li>
+
+				
+				<li><h3 class="icn-thumbs-up u28linked"><a href="https://www.oracle.com/partnernetwork/" data-lbl="o-resources-menu-parternetwork-opn">Oracle PartnerNetwork</a></h3>
+					<ul>
+						<li><a href="https://www.oracle.com/opn/index.html" data-lbl="o-resources-menu-parternetwork-login">Log in</a></li>
+						
+						<li><a href="https://partner-finder.oracle.com/catalog/scr/Partners/index.html" data-lbl="o-resources-menu-parternetwork-find-partner">Find a Partner</a></li>
+						<li><a href="https://partnerstore.oracle.com/apex/f?p=pstore:home:0" data-lbl="o-resources-menu-parternetwork-partner-store">Partner Store</a></li>
+					</ul>
+				</li>
+				<li><h3 class="icn-code u28linked"><a href="https://developer.oracle.com/" data-lbl="o-resources-menu-developer-center">Developer Center</a></h3></li>
+
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-cloud u28linked"><a href="https://www.oracle.com/cloud/free/?source=:ow:o:s:nav:062520GlobalNavResources&amp;intcmp=:ow:o:s:nav:062520GlobalNavResources" data-lbl="global-nav-resources:cloud-free-tier">Oracle Cloud Free Tier</a></h3></li>
+				<li><h3 class="icn-office u28linked"><a href="https://www.oracle.com/cloud/architecture-center.html" data-lbl="o-resources-menu-cloud-arch-center">Cloud Architecture</a></h3></li>
+				<li><h3 class="icn-file-doc u28linked"><a href="https://www.oracle.com/corporate/invoicing/" data-lbl="o-resources-menu-corporate-invoicing">Cloud Invoicing</a></h3></li>
+				<li><h3 class="icn-cart-empty u28linked"><a href="https://cloudmarketplace.oracle.com/marketplace/en_US/homePage.jspx" data-lbl="o-resources-menu-cloud-marketplace">Cloud Marketplace</a></h3></li>
+				<li><h3 class="icn-check-square u28linked"><a href="https://www.oracle.com/readiness/" data-lbl="o-resources-menu-cloud-readiness-updates">Cloud Readiness Updates</a></h3></li>
+				<li><h3 class="icn-shield-trusted u28linked"><a href="https://www.oracle.com/corporate/security-practices/cloud/" data-lbl="o-resources-menu-cloud-security-practices">Cloud Security Practices</a></h3></li>
+				<li><h3 class="icn-arrow-alt-up u28linked"><a href="https://www.oracle.com/startup/" data-lbl="o-resources-menu-startups">Oracle for Startups</a></h3></li>
+				<li><h3 class="icn-bank u28linked"><a href="https://academy.oracle.com/en/oa-web-overview.html" data-lbl="o-resources-menu-students-educators">For Students and Educators</a></h3></li>
+			</ul>
+		</div>
+	</div>
+
+	
+	<!--Support-->
+	<h2 class="rw-ptitle">Support</h2>
+	<div class="u28navw2 u28fourclm u28clm" data-type="support">
+		<div>
+			<ul>
+				<li><h3 class="icn-laptop u28linked"><a href="https://support.oracle.com/" data-lbl="o-support-menu-support-portal-login">My Oracle Support Login</a></h3>
+					<ul>
+						<li><a href="https://support.oracle.mobi/" data-lbl="o-support-menu-mobile-my-oracle-support">Mobile Login</a></li>
+						<li><a href="https://www.oracle.com/support/contact.html" data-lbl="o-support-menu-contact-oracle-support">Contact Oracle Support</a></li>
+						<li><a href="https://supportrenewals.oracle.com/" data-lbl="o-support-menu-my-support-renewals">My Support Renewals</a></li>
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-information u28linked"><a href="https://www.oracle.com/support/" data-lbl="o-support-menu-about-support-services">About Support Services</a></h3>
+					<ul>
+						<li><a href="https://www.oracle.com/support/premier/" data-lbl="o-support-menu-about-support-premier">Oracle Premier Support</a></li>
+						<li><a href="https://www.oracle.com/support/premier/best-practices.html" data-lbl="o-support-menu-about-support-proactive">Proactive Support Program</a></li>
+						<li><a href="https://www.oracle.com/support/saas-services/" data-lbl="o-support-menu-about-support-saas">Oracle SaaS Support Services</a></li>
+						
+						<li><a href="https://www.oracle.com/support/advanced-customer-services/" data-lbl="o-support-menu-about-support-advanced">Advanced Customer Services</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<div>
+			<ul>
+				<li><h3 class="icn-forum u28linked"><a href="https://community.oracle.com/welcome" data-lbl="o-support-menu-communities-welcome-heading">Communities</a></h3>
+					<ul>
+						<li><a href="https://community.oracle.com/community/support" data-lbl="o-support-menu-communities-my-oracle-support">My Oracle Support Community</a></li>
+						<li><a href="https://cloudcustomerconnect.oracle.com/pages/home" data-lbl="o-support-menu-communities-cloud-cust-connect">Cloud Customer Connect</a></li>
+						<li><a href="https://community.oracle.com/community/groundbreakers" data-lbl="o-support-menu-communities-developer">Developer</a></li>
+						<li><a href="https://community.oracle.com/community/usergroups" data-lbl="o-support-menu-communities-user-groups">Oracle User Groups</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><h3 class="icn-settlement u28linked"><a href="https://www.oracle.com/support/lifetime-support/" data-lbl="o-support-menu-lifetime-support">Lifetime Support Policies</a></h3>
+					<ul>
+						<li><a href="https://www.oracle.com/support/policies.html" data-lbl="o-support-menu-tech-support-policies">Technical Support Policies</a></li>
+						<li><a href="https://www.oracle.com/security-alerts/" data-lbl="o-support-menu-critical-patch-updates">Critical Patch Updates</a></li>
+						<li><a href="https://docs.oracle.com/en/" data-lbl="o-support-menu-documentation">Documentation</a></li>
+						<li><a href="https://www.oracle.com/downloads/" data-lbl="o-support-menu-sw-downloads">Software Downloads</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+
+
+</div></nav>
+
+</section>
+<!-- /U28v1 -->
+
+
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+
+<!-- end : ocom/common/global/components/framework/layoutAssetStartBodyInfo -->
+<!-- start : ocom/common/global/components/banner -->
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- RH01v0 -->
+<section class="rh01 rh01v0 pghero darktheme" data-trackas="rh01" data-ocomid="rh01" style="background-image:url(/a/ocom/img/rh01-background-cloud-infra.jpeg);">
+  <div class="rh01w1 cwidth">
+    <div class="herotitle">
+      <h1 class="rwaccent-4">Oracle Cloud Infrastructure</h1>
+      <h2>Next-generation cloud and on-premises infrastructure</h2>
+      <p>Oracle Cloud Infrastructure (OCI) is an IaaS that provides 
+on-premises high-performance computing power to meet the demands of 
+high-growth cloud and enterprise companies. OCI delivers real-time 
+elastic scalability for cloud native and enterprise application 
+workloads by combining Oracle's autonomous services and integrated 
+security with robust support for enterprise applications. Available for 
+public cloud.</p>
+      <p>For on-premises requirements, OCI is available on the new Dedicated Region Cloud@Customer—behind a customer’s private firewall.</p>
+    </div>
+    <div class="obttns">
+     <div>
+        <a href="https://www.oracle.com/cloud/economics/" data-lbl="compare-against-aws">Compare against AWS</a>
+     </div>
+      <div>
+        <a href="https://www.oracle.com/cloud/free/?&amp;source=:ow:o:p:nav:0916BCButton&amp;intcmp=:ow:o:p:nav:0916BCButton" data-cxdtrack=":ow:o:p:nav:0916BCButton" data-adbtrack=":ow:o:p:nav:0916BCButton" data-lbl="try-oracle-cloud-free-tier" "="">Try Oracle Cloud Free Tier</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /RH01v0 -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+<!-- end : ocom/common/global/components/banner -->
+<!-- start : ocom/common/global/components/u03v5-breadcrumb -->
+<!-- U03v5 -->
+<nav class="u03 u03v5 u03bttns" data-trackas="breadcrumb" data-ocomid="u03">
+	<div class="cwidth">
+		<div class="u03w1">
+			<ul>
+				
+			</ul>
+
+			<h1>Cloud Infrastructure</h1>
+
+		</div>
+
+		
+
+	</div>
+	
+	<script type="application/ld+json">
+	{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement":
+	  [
+		{ "@type": "ListItem", "position": 1, "name": "Cloud", "item": "https://www.oracle.com/cloud/" }
+	  ]
+	}
+	</script>
+	
+</nav>
+<!-- /U03v5 -->
+	<!-- end : ocom/common/global/components/u03v5-breadcrumb -->
+<!-- start : ocom/common/global/components/compass/related-widgets -->
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- RC11v0 -->
+<section class="rc11 rc11v0 bg-blue" data-trackas="rc11" data-ocomid="rc11">
+    <div class="rc11w1 cwidth">
+        <div class="rc11w2">
+          <p>Get started or go deeper on Oracle Cloud Infrastructure.</p>
+          <div class="obttns">
+            <div>
+              <a href="https://www.oracle.com/cloud/architecture-center.html" data-lbl="cloud-infrastructure-architecture-center-and-global-cloud-regions">Oracle Cloud Infrastructure Architecture Center and Global Cloud Regions</a> 
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+<!-- /RC11v0 -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- RC04v0 -->
+<section class="rc04 rc04v0 cpadx o-bgimg darktheme" data-trackas="rc04" data-ocomid="rc04" data-bgimg="/a/ocom/img/rc04-content-hero-zoom.jpg">
+    <div class="rc04w1 cwidth">
+
+            <div class="rc04w10">
+
+                
+
+                    
+                        <div class="rc04w6 bgimg" style="background-image: url(&quot;/a/ocom/img/rc04-content-hero-zoom-logo.svg&quot;);">
+                            
+                        </div>
+                        
+                                    <h3>Zoom selects Oracle as a cloud infrastructure provider for its core online meeting service</h3>
+                                    <p>Zoom deploys Oracle Cloud within hours; enables millions of meeting participants within weeks.</p>
+                        
+                        
+                            <div class="obttns">
+                                 <div class="obttn">
+                                    <a href="https://www.oracle.com/corporate/pressrelease/zoom-selects-oracle-to-support-growth-042820.html">Read the press release</a>
+                                </div>  
+				<div class="obttn1">
+					<a href="https://www.oracle.com/customers/zoom.html" data-lbl="zoom-view-the-story">View the story</a>
+				</div>
+
+
+                            </div>
+                        
+                        <div class="rc04w2"><div class="rc04w11">
+                                    <!-- <a href="/cloud">Oracle Cloud Infrastructure</a> -->
+                            
+                                 
+                            
+                        </div><div class="rc04w3">Industry: <span>Professional Services</span></div><div class="rc04w3">Location: <span>UNITED STATES</span></div></div>
+                    
+
+                
+            </div>
+
+    </div>
+</section>
+<!-- /RC04v0 -->
+
+
+
+
+
+<!-- 
+<section class="rc04 rc04v0 cpadx o-bgimg darktheme" data-trackas="rc04" data-ocomid="rc04" data-bgimg="/a/ocom/img/rc04-cloud-infra-cern.jpg">
+    <div class="rc04w1 cwidth">
+
+            <div class="col-framework col2">
+
+                <div class="col-w1">
+
+                    <div class="col-item">
+                        <div class="col-item-w1">
+                            <img src="/a/ocom/img/rc04-cern-logo.svg" alt="CERN logo">
+                        </div>
+                        <div class="col-item-w2">
+                                    <h3>Oracle Cloud helps CERN explore our universe</h3>
+                                    <p>Nobel Prize-winning research organization trials Oracle  Autonomous Database to manage its vast quantities of data.</p>
+                        </div>
+                        <div class="col-item-w3">
+                            <div class="obttns">
+                                <div class="obttn">
+                                    <a href="?bcid=6097120312001&amp;bigscreen=true" rel="vbox" data-lbl="button:lighbox-open-watch-the-video:cern" data-trackas="lightbox" class="rc04play icn-img icn-play">Watch the video</a>
+                                </div>
+                                <div class="obttn1">
+                                    <a data-lbl="cern:view-the-story" data-trackas="cta" href="//www.oracle.com/customers/infrastructure/cern/">View the story</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-item-w4">
+                                    <a href="/cloud/">Oracle Cloud Infrastructure</a>
+                            <div class="rc04w2">
+                                <div class="rc04w3">Industry: <span>Education and Research</span></div> <div class="rc04w3">Location: <span> Switzerland</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </div>
+</section>
+ /RC04v0 -->
+
+
+
+
+<!-- 
+<section class="rc04 rc04v0 cpadx o-bgimg darktheme" data-trackas="rc04" data-ocomid="rc04" data-bgimg="/a/ocom/img/rc04-cloud-infra-care-worker-training.jpg">
+    <div class="rc04w1 cwidth">
+
+            <div class="col-framework col2">
+
+                <div class="col-w1">
+
+                    <div class="col-item">
+                        <div class="col-item-w1">
+                            <img src="/a/ocom/img/rc04-care-logo.svg" alt="CARE logo">
+                        </div>
+                        <div class="col-item-w2">
+                                    <h3>Oracle Cloud helps CARE streamline operations</h3>
+                                    <p>The global nonprofit uses Oracle Cloud Infrastructure to accelerate  organizational change while improving internal financial and supply  chain functions to deliver humanitarian services to millions of people.</p>
+                        </div>
+                        <div class="col-item-w3">
+                            <div class="obttns">
+                                <div class="obttn">
+                                    <a href="?bcid=6093293415001&amp;bigscreen=true" rel="vbox" data-lbl="button:lighbox-open-watch-the-video:care" data-trackas="lightbox" class="rc04play icn-img icn-play">Watch the video</a>
+                                </div>
+                                <div class="obttn1">
+                                    <a data-lbl="care:view-the-story" data-trackas="cta" href="//www.oracle.com/customers/infrastructure/care/">View the story</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-item-w4">
+                                    <a href="/cloud/">Oracle Cloud Infrastructure </a>
+                            <div class="rc04w2">
+                                <div class="rc04w3">Industry: <span>Professional Services</span></div> <div class="rc04w3">Location: <span>United States</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </div>
+</section>
+ -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- RC07v0 -->
+<section class="rc07 rc07v0 cpad darktheme" data-trackas="rc07" data-ocomid="rc07">
+	<div class="rc07w1 cwidth">
+		<strong><a href="https://www.oracle.com/cloud/products.html" data-lbl="view-all-infrastructure-products">View all cloud infrastructure products</a></strong>
+		<h3 class="rwaccent">Cloud Infrastructure Products</h3>
+		<div class="rc07w2 col-framework col4 col-gutters col-multi col-altbreak-3">
+			<div class="col-w1">
+				<div class="col-item">
+					<div class="col-item-w1" style="height: 162.467px;">
+						<div class="icn-img icn-cloud"><br></div>
+						<h4>Cloud@Customer</h4>
+					<div class="rc07w3 icn-img icn-chevron-down"></div></div>
+					<div class="rc07content">
+						<h5><a href="https://www.oracle.com/cloud/cloud-at-customer/" data-lbl="cloud@customer">Cloud@Customer</a></h5>
+						<div class="col-framework col3 col-gutters col-multi col-noanimation">
+							<div class="col-w1">
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/cloud-at-customer/dedicated-region/" data-lbl="dedicated-region-cloud@customer">Dedicated Region Cloud@Customer</a></h6>
+						                 <p>Oracle Dedicated Region Cloud@Customer is a 
+completely managed cloud region that brings all of Oracle’s 
+second-generation public cloud services into your datacenter. It’s 
+designed for enterprises that need to keep certain applications 
+on-premises for data residency or stringent latency requirements, while 
+using the public cloud for everything else.</p>
+									</div>
+								</div>
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/autonomous-database/autonomous-database-on-exadata-cloud-at-customer/" data-lbl="adb-on-exadata-cloud@customer">Autonomous Database on Exadata Cloud@Customer</a></h6>
+						                 		<p>Oracle Autonomous Database on Exadata 
+Cloud@Customer eliminates the complexity associated with managing 
+databases on premises. It combines the simplicity and benefits of 
+autonomous capabilities with an optimized hardware and a pay-per-use 
+subscription pricing in customer data center to meet strict data 
+sovereignty and low latency requirements.</p>
+									</div>
+								</div>
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/engineered-systems/exadata/cloud-at-customer/" data-lbl="exadata-cloud-at-customer">Exadata Cloud@Customer</a></h6>
+										<p>Oracle Exadata Cloud@Customer is a unique solution that 
+delivers integrated Oracle Exadata hardware and Oracle Cloud 
+Infrastructure software in your data center with Oracle Exadata 
+infrastructure managed by Oracle experts. Oracle Exadata Cloud@Customer 
+is ideal for customers who desire cloud benefits but cannot yet move 
+their databases to the public cloud.</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-item">
+					<div class="col-item-w1" style="height: 162.467px;">
+						<div class="icn-img icn-server"><br></div>
+						<h4>Compute</h4>
+					<div class="rc07w3 icn-img icn-chevron-down"></div></div>
+					<div class="rc07content">
+						<h5><a href="https://www.oracle.com/cloud/compute/" data-lbl="compute">Compute</a></h5>
+						<div class="col-framework col3 col-gutters col-multi col-noanimation">
+							<div class="col-w1">
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/compute/vmware/" data-lbl="vmware-solution">Oracle Cloud VMware Solution</a></h6>
+						                 <p>Oracle Cloud VMware Solution provides a 
+customer-managed, native VMware-based cloud environment, installed 
+within a customer’s tenancy, and offering complete control using 
+familiar VMware tools. Move or extend VMware based workloads to the 
+cloud without rearchitecting applications or retooling operations.</p>
+									</div>
+								</div>
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://docs.oracle.com/en/cloud/cloud-at-customer/index.html" data-lbl="private-cloud-at-customer">Oracle Private Cloud at Customer</a></h6>
+						                 <p>Oracle Private Cloud at Customer simplifies 
+on-premises cloud deployments by reducing the time between power-on and 
+production to just a few hours. It combines the scalability, 
+zero-downtime upgradability, and security of Oracle Private Cloud 
+Appliance with a flexible subscription model to deliver IaaS out of the 
+box that can be managed from a single pane of glass. Achieve faster time
+ to value; control over regulatory issues, data privacy, and governance;
+ tight integration with your network security; and low latency for 
+on-premises applications and data.</p>
+									</div>
+								</div>
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/compute/virtual-machines.html" data-lbl="compute-virtual-machine">Virtual Machines</a></h6>
+						                 <p>Oracle Cloud Infrastructure Virtual Machines 
+(VMs) are ideal for running applications that don’t require the 
+performance of a dedicated bare metal server.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/compute/bare-metal.html" data-lbl="compute-bare-metal">Bare Metal Compute</a></h6>
+						                <p>Bare metal instances support applications 
+requiring high core counts, large amounts of memory, and high memory 
+bandwidth. Users can build cloud environments with significant 
+performance improvements over other public clouds and on-premise data 
+centers. Bare metal compute instances provide customers with exceptional
+ isolation, visibility, and control.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/compute/container-engine-kubernetes.html" data-lbl="compute-container-engine-kubernetes">Container Engine for Kubernetes</a></h6>
+										<p>Container Engine for Kubernetes, which uses versions of 
+Kubernetes certified as conformant by the Cloud Native Computing 
+Foundation, is a fully managed, scalable, and highly available service 
+used to deploy containerized applications to the cloud.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/compute/container-registry.html" data-lbl="compute-container-registry">Container Registry</a></h6>
+										<p>Container Registry is a single place for teams to manage 
+Docker images, perform vulnerability analysis, and authentication to 
+control access to a private container image registry. The registry can 
+detect vulnerabilities or security issues before images are ever 
+deployed to containers.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/compute/gpu.html" data-lbl="compute-gpu-based-virtual-machines">Virtual Machines and Bare Metal (GPU)</a></h6>
+										<p>NVIDIA-based offerings provide a range of options for 
+graphics-intensive workloads while also providing the high performance 
+demanded by AI and machine-learning algorithms.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-item">
+					<div class="col-item-w1" style="height: 162.467px;">
+						<div class="icn-img icn-storage"><br></div>
+						<h4>Storage</h4>
+					<div class="rc07w3 icn-img icn-chevron-down"></div></div>
+					<div class="rc07content">
+						<h5><a href="https://www.oracle.com/cloud/storage/" data-lbl="storage">Storage</a></h5>
+						<div class="col-framework col3 col-gutters col-multi col-noanimation">
+							<div class="col-w1">
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://docs.cloud.oracle.com/iaas/Content/Compute/References/nvmedeviceinformation.htm" data-lbl="storage-local-nvme-ssd">Local NVMe SSD</a></h6>
+										<p>Oracle NVMe SSD is a storage drive that is designed with 
+the Non-Volatile Memory Express (NVMe) high-performance controller 
+interface to deliver industry-leading performance, low latency, and high
+ quality of service.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/storage/block-volumes.html" data-lbl="storage-block-volume">Block Volumes</a></h6>
+										<p>Oracle Cloud Infrastructure Block Volume service allows 
+businesses to dynamically provision and manage block storage volumes. 
+All NVMe-SSD based storage provides extremely high performance.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/storage/file-storage.html" data-lbl="storage-file-storage">File Storage</a></h6>
+						                 <p>Oracle Cloud Infrastructure File Storage is an
+ enterprise-grade, cloud file storage service offering massive 
+scalability, high availability, and extensive durability.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/storage/object-storage.html" data-lbl="storage-object-storage">Object Storage</a></h6>
+						                <p>Oracle Cloud Infrastructure Object Storage provides reliable, durable, and highly available object storage.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/storage/archive-storage.html" data-lbl="storage-archive-storage">Archive Storage</a></h6>
+										<p>Oracle Cloud Infrastructure Archive Storage is used for 
+retaining data that is accessed infrequently and requires long retention
+ periods. All data at rest is encrypted.</p>
+
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/storage/storage-gateway.html" data-lbl="storage-storage-gateway">Storage Gateway</a></h6>
+										<p>Oracle Cloud Infrastructure Storage Gateway allows access 
+to Oracle services within the region to protect your data from the 
+internet, and enable consumer-to-service private C2S connections.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/storage/data-transfer.html" data-lbl="storage-data-transfer">Data Transfer</a></h6>
+										<p>Move petabyte-scale datasets to Oracle Cloud Infrastructure
+ in days, instead of weeks or months, through Oracle's UI, CLI or the 
+data transfer appliance. Organizations can use their own disks for a 
+range of data migration scenarios such as smaller datasets, faster 
+turnarounds, and international shipments.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-item">
+					<div class="col-item-w1" style="height: 162.467px;">
+						<div class="icn-img icn-networking"><br></div>
+						<h4>Networking, Connectivity, and Edge Services</h4>
+					<div class="rc07w3 icn-img icn-chevron-down"></div></div>
+					<div class="rc07content">
+						<h5><a href="https://www.oracle.com/cloud/networking/" data-lbl="networking--connectivity-and-edge-services">Networking, Connectivity, and Edge Services</a></h5>
+						<div class="col-framework col3 col-gutters col-multi col-noanimation">
+							<div class="col-w1">
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/networking/virtual-cloud-network.html" data-lbl="networking-virtual-cloud-network">Virtual Cloud Network</a></h6>
+										<p>Oracle Cloud Infrastructure Virtual Cloud Network (VCN) is a
+ customizable and private network. As with your on-premise network, you 
+have complete control. This includes assigning your own private IP 
+address space, creating subnets, route tables, and configuring stateful 
+firewalls. A single tenant can have multiple VCNs, thereby providing 
+grouping and isolation of related resources.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/networking/service-gateway.html" data-lbl="networking-service-gateway">Service Gateway</a></h6>
+										<p>Oracle Cloud Infrastructure service gateway allows access 
+to Oracle services within the region to protect your data from the 
+internet. Oracle Cloud Infrastructure service gateway enables 
+consumer-to-service private connections (C2S connections).</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/networking/load-balancing.html" data-lbl="networking-load-balancing">Load Balancing</a></h6>
+										<p>Oracle Cloud Infrastructure Load Balancing offers options 
+to distribute workload processes across multiple resources in multitier 
+and highly distributed application architectures to ensure availability.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/networking/fastconnect.html" data-lbl="networking-fastconnect">FastConnect</a></h6>
+										<p>Oracle Cloud Infrastructure FastConnect service enables 
+businesses to extend their IT infrastructure with dedicated connectivity
+ to Oracle Cloud Infrastructure resources. As an alternative to using 
+the public internet, FastConnect offers predictable and consistent 
+performance, and there are no charges for data egress.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/networking/dns.html" data-lbl="networking-dns">DNS</a></h6>
+										<p>Oracle Cloud Infrastructure Domain Name System (DNS) allows
+ organizations to create and manage their DNS zones. Create zones, add 
+records to zones, and allow Oracle Cloud Infrastructure's edge network 
+to handle all domains’ DNS queries.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/networking/traffic-management.html" data-lbl="networking-traffic-management">Traffic Management</a></h6>
+										<p>Oracle Traffic Management enables organizations to 
+configure policies that serve intelligent responses to DNS queries based
+ on customer-defined logic and policy. Provide failover capabilities, 
+the ability to load balance traffic across multiple resources, and 
+account for the location where the query was initiated.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/networking/health-checks.html" data-lbl="networking-healthchecks">Health Checks</a></h6>
+										<p>Oracle Health Checks allows organizations to configure and deploy both monitors and on-demand probes using simple APIs.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/networking/email-delivery.html" data-lbl="networking-email-delivery">Email Delivery</a></h6>
+										<p>Oracle Email Delivery is an email cloud service, providing 
+fast and reliable managed solutions for sending important and 
+high-volume emails. The service provides the ability to send 
+application-generated emails for mission-critical communications, 
+including receipts, fraud detection alerts, multifactor identity 
+verification, and password resets.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-item">
+					<div class="col-item-w1" style="height: 162.467px;">
+						<div class="icn-img icn-shieldtrusted"><br></div>
+						<h4>Security, Identity, and Compliance</h4>
+					<div class="rc07w3 icn-img icn-chevron-down"></div></div>
+					<div class="rc07content">
+						<h5><a href="https://www.oracle.com/security/cloud-services/" data-lbl="see-all-security-identity-services/">Security, Identity, and Compliance</a></h5>
+						<div class="col-framework col3 col-gutters col-multi col-noanimation">
+							<div class="col-w1">
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/security/cloud-services/identity-access-cloud.html" data-lbl="security-identity-and-access-management">Identity and Access Management</a></h6>
+										<p>Oracle Identity and Access Management (IAM) service lets 
+you control who has access to cloud resources, what type of access they 
+have, and to which specific resources. You can manage complex 
+organizations and rules with logical groups of users and resources and 
+easy-to-define policies. With IAM, Oracle Cloud Infrastructure users can
+ leverage a single model for authentication and authorization at no 
+additional cost.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/security/cloud-services/key-management.html" data-lbl="security-kms">Key Management</a></h6>
+										<p>Use Oracle Key Management services to define key usage and 
+management policies and grant Oracle IAM users, groups, or services the 
+rights to use, manage, or associate your keys with resources. Our Key 
+Management service stores keys in isolated partitions inside FIPS 140-2,
+ Security Level 3-certified hardware security modules (HSMs), replicated
+ multiple times within a region to ensure the durability and 
+availability of the keys.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/security/cloud-services/web-application-firewall.html">Web Application Firewall (WAF)</a></h6>
+										<p>The Oracle Cloud Infrastructure Web Application Firewall 
+(WAF) is an enterprise-grade, cloud-based edge security solution that's 
+designed to protect internet-facing applications from cyberattacks. The 
+WAF provides several security services—including bot management and DDoS
+ protection—and uses a layered approach to safeguard websites and web 
+applications against malicious incoming traffic.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/security/cloud-services/identity-cloud.html" data-lbl="security-identity-service">Identity Cloud Service</a></h6>
+										<p>This next-generation comprehensive security and identity 
+platform is cloud native and designed to be an integral part of the 
+enterprise security fabric, providing modern identity for modern 
+applications.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/security/cloud-services/casb-cloud.html" data-lbl="security-casb">Cloud Access Security Broker (CASB)</a></h6>
+										<p>Protect your entire IaaS, SaaS, and PaaS cloud footprint. 
+Oracle CASB Cloud Service is a multimode cloud-access security broker 
+that provides advanced threat analytics using user-behavior analytics 
+(UBA) and third-party feeds, configuration seeding, monitoring and 
+alerts, and shadow IT discovery.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/database/security/" data-lbl="database-security">Database Security</a></h6>
+										<p>Protecting data requires a comprehensive approach that 
+covers the entire attack surface area, including preventive measures 
+like encryption that protect the data itself, along with detective 
+controls to monitor for a myriad of threats like risky users and 
+misconfigurations in real time. Oracle provides this layered, 
+defense-in-depth approach to database security, both on premise and in 
+the cloud, including for Oracle Autonomous Database. Some of your most 
+sensitive data likely resides in Oracle Databases—you can trust Oracle 
+to protect it.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-item">
+					<div class="col-item-w1" style="height: 162.467px;">
+						<div class="icn-img icn-database"><br></div>
+						<h4>Database Management</h4>
+					<div class="rc07w3 icn-img icn-chevron-down"></div></div>
+					<div class="rc07content">
+						<h5><a href="https://www.oracle.com/database/" data-lbl="database-management-products">Database Management</a></h5>
+						<div class="col-framework col3 col-gutters col-multi col-noanimation">
+							<div class="col-w1">
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/autonomous-database/autonomous-data-warehouse/" data-lbl="database-autonomous-datawarehouse">Autonomous Data Warehouse</a></h6>
+										<p>Oracle Autonomous Data Warehouse Cloud Service is a fully 
+automated, high-performance, and elastic service. You will have all of 
+the performance of market-leading Oracle Database in a fully automated 
+environment that is tuned and optimized for data warehouse workloads.</p>
+
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/autonomous-database/autonomous-transaction-processing/" data-lbl="database-atp">Autonomous Transaction Processing</a></h6>
+										<p>Oracle Autonomous Transaction Processing is a fully 
+automated database service tuned and optimized for transaction 
+processing or mixed workloads with the market-leading performance of 
+Oracle Database. The service delivers a self-driving, self-securing, 
+self-repairing database service that can instantly scale to meet demands
+ of mission-critical applications.</p>
+									</div>
+								</div>
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/autonomous-database/autonomous-json-database/" data-lbl="database-ajd">Autonomous JSON Database</a></h6>
+										<p>Oracle Autonomous JSON Database is a cloud document 
+database service that makes it simple to develop JSON-centric 
+applications. It features simple document APIs, serverless scaling, high
+ performance ACID transactions, comprehensive security, and low 
+pay-per-use pricing. Autonomous JSON Database automates provisioning, 
+configuring, tuning, scaling, patching, encrypting, and repairing of 
+databases, eliminating database management and delivering 99.995% 
+availability.</p>
+									</div>
+								</div>
+
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/database/bare-metal-cloud.html" data-lbl="database-bare-metal">Database Cloud Service: Bare Metal</a></h6>
+										<p>The dense I/O configuration consists of a single Oracle 
+11g, 12c, or 18c Database instance on 2 OCPUs, with the ability to 
+dynamically scale up to 52 OCPUs without downtime. Available storage 
+configurations range from 5.4 to 51.2 TB of NVMe SSD local storage, with
+ 2- and 3-way mirroring options available.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/database/vm-cloud.html" data-lbl="database-vm">Database Cloud Service: Virtual Machine</a></h6>
+										<p>The virtual machine configurations consists of a single 
+Oracle 11g, 12c, or 18c Database instance. Choose from a single OCPU 
+virtual machine with 15 GB of RAM up to a RAC-enabled virtual machine 
+with 48 OCPUs with over 600 GB of RAM. Storage configurations range from
+ 256 GB to 40 TB.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/database/exadata-cloud-service.html" data-lbl="database-exadata-cloud-service">Exadata Cloud Service</a></h6>
+										<p>Oracle Exadata Cloud Service enables you to run Oracle 
+Databases in the cloud with the same extreme performance and 
+availability experienced by thousands of organizations which have 
+deployed Oracle Exadata on premise. Oracle Exadata Cloud Service offers a
+ range of dedicated Exadata shapes.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/database/exadata-cloud-customer.html" data-lbl="database-exadata-cloud-at-customer">Exadata Cloud@Customer</a></h6>
+										<p>Oracle Exadata Cloud@Customer is a unique solution that 
+delivers integrated Oracle Exadata hardware and Oracle Cloud 
+Infrastructure software in your data center with Oracle Exadata 
+infrastructure managed by Oracle experts. Oracle Exadata Cloud@Customer 
+is ideal for customers who desire cloud benefits but cannot yet move 
+their databases to the public cloud.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/database/nosql-cloud.html" data-lbl="database-nosql">Oracle NoSQL Database Cloud Service</a></h6>
+										<p>A NoSQL Database Cloud Service with on-demand throughput 
+and storage-based provisioning that supports document, columnar, and 
+key-value data models, all with flexible transaction guarantees.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/mysql/" data-lbl="mysql-database-service">Oracle MySQL Database Service</a></h6>
+										<p>MySQL Database Service is a fully managed database service 
+that enables organizations to deploy cloud native database applications 
+using the world’s most popular open source database.  It is 100% 
+developed, managed, and supported by the MySQL Team.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-item">
+					<div class="col-item-w1" style="height: 162.467px;">
+						<div class="icn-img icn-chart"><br></div>
+						<h4>Analytics and Big Data</h4>
+					<div class="rc07w3 icn-img icn-chevron-down"></div></div>
+					<div class="rc07content">
+						<h5><a href="https://www.oracle.com/business-analytics/" data-lbl="analytics/">Analytics</a> and <a href="https://www.oracle.com/big-data/" data-lbl="big-data">Big Data</a></h5>
+						<div class="col-framework col3 col-gutters col-multi col-noanimation">
+							<div class="col-w1">
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/business-analytics/analytics-cloud.html" data-lbl="analytics-and-big-data-analytics-cloud">Oracle Analytics Cloud</a></h6>
+										<p>Simplify how you analyze and act on information so you can scale insights across your entire organization.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/data-science/cloud-infrastructure-data-science.html" data-lbl="analytics-and-big-data-data-science">Oracle Data Science</a></h6>
+										<p>Enables data science teams to easily organize their work, 
+access data and computing resources, and build, train, deploy, and 
+manage models on Oracle Cloud. The platform makes teams more productive 
+and enables them to deploy more work faster to power their organizations
+ with machine learning.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/business-analytics/essbase.html" data-lbl="analytics-and-big-data-essbase">Oracle Essbase</a></h6>
+										<p>Push-button simplicity to empower all analytics users with 
+all of the rich functionality the enterprise expects. Now available as 
+part of Oracle Analytics Cloud.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/big-data/big-data-service/" data-lbl="analytics-and-big-data-service">Oracle Big Data Service</a></h6>
+										<p>An automated service that provides a high-powered 
+environment, tailor-made for advancing businesses’ analytical 
+capabilities. With automated lifecycle management and one-click 
+security, it optimally and securely runs a wide variety of big data 
+workloads and technologies while simplifying operations.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/big-data/big-data-sql/" data-lbl="analytics-and-big-data-sql-cloud-service">Oracle Big Data SQL Cloud Service</a></h6>
+										<p>Immediately analyze data across Apache Hadoop, NoSQL, and 
+Oracle Database, leveraging your existing SQL skills, security policies,
+ and applications with extreme performance. From simplifying data 
+science efforts to unlocking data lakes, it makes the benefits of big 
+data available to the largest group of end users possible.</p>
+									</div>
+								</div>
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/big-data/data-catalog/" data-lbl="analytics-and-big-data-oracle-cloud-infrastructure-data-catalog">Oracle Cloud Infrastructure Data Catalog</a></h6>
+										<p>A robust, self-service metadata management service that 
+powers the ability to organize, govern, and enrich information about 
+data within Oracle Cloud and beyond. This collaborative solution 
+consolidates data from various datasets and enables nontechnical users 
+to discover, explore, and track data, streamlining processes and 
+maximizing the value of your data.</p>
+									</div>
+								</div>
+
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/big-data/data-flow/" data-lbl="analytics-and-big-data-data-flow">Oracle Cloud Infrastructure Data Flow</a></h6>
+										<p>Run Apache Spark applications without infrastructure via a 
+fully managed big data service built to optimize performance and 
+efficiency.</p>
+									</div>
+								</div>
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/middleware/data-integration/oracle-cloud-infrastructure-data-integration/" data-lbl="analytics-and-big-data-oracle-cloud-infrastructure-data-integration">Oracle Cloud Infrastructure Data Integration</a></h6>
+										<p>Oracle Cloud Infrastructure Data Integration is a cloud 
+native server-less ETL service for integrating, transforming, and moving
+ data within the Oracle Cloud Infrastructure cloud eco-system.</p>
+									</div>
+								</div>
+
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/big-data/streaming/" data-lbl="analytics-and-big-data-streaming">Oracle Cloud Infrastructure Streaming</a></h6>
+										<p>Ingest and store continuous, high-volume data streams and process them in real time.</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-item">
+					<div class="col-item-w1" style="height: 162.467px;">
+						<div class="icn-img icn-contactgroup"><br></div>
+						<h4>Management and Governance</h4>
+					<div class="rc07w3 icn-img icn-chevron-down"></div></div>
+					<div class="rc07content">
+						<h5><a href="https://www.oracle.com/cloud/systems-management/cloud-services.html" data-lbl="systems-management-and-governance">Management and Governance</a></h5>
+						<div class="col-framework col3 col-gutters col-multi col-noanimation">
+							<div class="col-w1">
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/systems-management/monitoring/" data-lbl="management-and-governance-monitoring">Monitoring</a></h6>
+										<p>Oracle Cloud Infrastructure Monitoring service delivers the
+ insight needed to understand the health of your resources, optimize the
+ performance of your applications, and respond to anomalies in real 
+time.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/systems-management/notifications/" data-lbl="management-and-governance-notifications">Notifications</a></h6>
+										<p>Notifications is a fully managed publish-subscribe service 
+that allows for messages to be pushed with massive scale and 
+reliability.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/systems-management/resource-manager/" data-lbl="management-and-governance-resource-manager">Resource Manager</a></h6>
+										<p>Resource Manager is a managed service that can provision 
+all Oracle Cloud Infrastructure resources and services. Resource Manager
+ reduces configuration errors and increases productivity by managing 
+infrastructure declaratively, such as  infrastructure as code, using 
+industry standard Hashicorp Terraform®.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/systems-management/tagging.html" data-lbl="management-and-governance-tagging">Tagging</a></h6>
+						                <p>Tagging is included with your cloud service and
+ allows you to apply tags to your resources for informational, 
+operational, and billing purposes. Defined tags can be controlled to 
+avoid incorrect tags from being applied to resources and to help ensure 
+accurate cost tracking and usage integrity. Tags can also provide a 
+flexible targeting mechanism for administrative scripts.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/systems-management/cost-management.html" data-lbl="management-and-governance-cost-management">Cost Management</a></h6>
+						                <p>Oracle Cloud Infrastructure cost management 
+tools allow you to improve control and visibility over your cloud 
+budgets, usage, and spend.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/systems-management/audit.html" data-lbl="management-and-governance-audit">Audit</a></h6>
+										<p>Oracle Audit provides comprehensive visibility into your 
+Oracle Cloud Infrastructure services. Access all public API activities 
+in your tenancy over the past 365 days at no additional cost.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/systems-management/infrastructure-monitoring.html" data-lbl="management-and-governance-nfrastructure-monitoring">IT Infrastructure Monitoring</a></h6>
+										<p>Oracle Infrastructure Monitoring Cloud Service monitors the
+ status and health of your entire IT infrastructure—on premise or in the
+ cloud—from a single platform. Proactive monitoring across tiers enables
+ administrators to be alerted about issues, troubleshoot them, and 
+resolve them before they impact end users. This service is built on 
+Oracle Management Cloud's secure, unified, big data platform.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/systems-management/application-performance-monitoring.html" data-lbl="management-and-governance-application-performance-monitoring">Application Performance Monitoring</a></h6>
+										<p>Oracle Application Performance Monitoring Cloud Service 
+provides development and operations teams with the information that they
+ need to find and fix application issues fast. All your end-user and 
+application performance information (with associated application logs) 
+are brought together into Oracle Management Cloud's secure, unified big 
+data platform.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/systems-management/it-analytics.html" data-lbl="management-and-governance-it-analytics">IT Analytics</a></h6>
+										<p>Oracle IT Analytics Cloud Service provides 360-degree 
+insight into the performance, availability, and capacity of applications
+ and infrastructure investments, enabling line-of-business and IT 
+executives, analysts, and administrators to make critical decisions 
+about their IT estate. This service is built on Oracle Management 
+Cloud's secure, unified big data platform.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/systems-management/log-analytics.html" data-lbl="management-and-governance-log-analytics">Log Analytics</a></h6>
+										<p>Oracle Log Analytics Cloud Service monitors, aggregates, 
+indexes, and analyzes all log data from your applications and 
+infrastructure, enabling users to search, explore, and correlate this 
+data to troubleshoot problems faster, derive operational insight, and 
+make better decisions. This service is built on Oracle Management 
+Cloud's secure, unified big data platform.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-item">
+					<div class="col-item-w1" style="height: 162.467px;">
+						<div class="icn-img icn-action"><br></div>
+						<h4>Integration</h4>
+					<div class="rc07w3 icn-img icn-chevron-down"></div></div>
+					<div class="rc07content">
+						<h5><a href="https://www.oracle.com/middleware/application-integration/" data-lbl="integration-application">Application</a> and <a href="https://www.oracle.com/middleware/data-integration/" data-lbl="integration-data-integration">Data</a> Integration</h5>
+						<div class="col-framework col3 col-gutters col-multi col-noanimation">
+							<div class="col-w1">
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/cloud-native/api-gateway/" data-lbl="infrastructure-integration-api-platform">API Gateway</a></h6>
+										<p>A highly available, fully managed gateway that enables you 
+to build scalable and secure cloud native applications with RESTful APIs
+ to back-end services, such as Oracle Container Engine for Kubernetes, 
+Oracle Cloud Infrastructure Registry, and Oracle Functions.</p>
+									</div>
+								</div>
+
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/middleware/data-integration/enterprise-edition/" data-lbl="infrastructure-integration-data-integrator">Oracle Data Integrator</a></h6>
+										<p>Oracle Data Integrator provides pushdown data processing: 
+high-performance ETL with less data movement which is best for the 
+cloud. Oracle Data Integrator data transformations where the data lies 
+without having to copy data unnecessarily to remote locations.</p>
+									</div>
+								</div>
+								<!-- <div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="/cloud/integration/data-integration-platform-cloud/"    data-lbl="infrastructure-integration-data-integration-platform">Data Integration Platform</a></h6>
+										<p>Data Integration Platform (DIP) helps migrate and extract value from data by combining data integration, data quality, and data governance capabilities into a unified, cloud-based platform. Oracle DIP incorporates machine learning and AI-powered features, including automated data migration and data warehouse building, as well as machine-assisted data profiling and governance.</p>
+									</div>
+								</div>  -->
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/middleware/data-integration/goldengate/" data-lbl="infrastructure-integration-goldengate">Oracle GoldenGate</a></h6>
+										<p>Oracle GoldenGate is a cloud-based, real-time data 
+integration and replication service that provides seamless data movement
+ from various on-premise relational databases to databases in the cloud 
+while maintaining data consistency and offering fault tolerance and 
+resiliency.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/middleware/application-integration/" data-lbl="integration-oracle-integration">Oracle Integration</a></h6>
+										<!-- <h6><a  href="/cloud/integration/ "   data-lbl="infrastructure-integration-integratio-cloud">Oracle Integration</a></h6>  -->
+
+										<p>Oracle Integration accelerates your modernization and 
+digital transformation project delivery by eliminating barriers between 
+business applications through a combination of machine learning for best
+ practice guidance, a library of prebuilt adapters, and process 
+automation examples.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6> <a class="cta-lnk" href="https://www.oracle.com/cloud/integration/soa-cloud-service/" data-lbl="infrastructure-integration-soa">SOA Cloud Service</a></h6>
+										<p>Oracle SOA Cloud Service provides an integration platform 
+as a service (iPaaS) so that you can quickly provision your new 
+platform, start developing and deploying your APIs and integration 
+projects, and provide real-time analytics as you transition to digital 
+business.</p>
+									</div>
+								</div>
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6> <a class="cta-lnk" href="https://www.oracle.com/middleware/data-integration/oracle-cloud-infrastructure-data-integration/" data-lbl="integration:oracle-cloud-infrastructure-data-integration">Oracle Cloud Infrastructure Data Integration</a></h6>
+										<p>Part of Oracle's portfolio of integration solutions, cloud 
+native ETL combines and transforms data for data science and analytics. 
+Design-code free data flows into data lakes and data marts.</p>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-item">
+					<div class="col-item-w1" style="height: 162.467px;">
+						<div class="icn-img icn-developertools"><br></div>
+						<h4>Application Development</h4>
+					<div class="rc07w3 icn-img icn-chevron-down"></div></div>
+					<div class="rc07content">
+						<h5><a href="https://www.oracle.com/application-development/" data-lbl="application-development">Application Development</a></h5>
+						<div class="col-framework col3 col-gutters col-multi col-noanimation">
+							<div class="col-w1">
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/compute/container-engine-kubernetes.html" data-lbl="application-development-container-engine-for-kubernetes">Container Engine for Kubernetes</a></h6>
+										<p>A developer friendly, container-native, and 
+enterprise-ready managed Kubernetes service for running highly available
+ clusters with the control, security, and predictable performance of 
+Oracle’s Cloud Infrastructure.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/compute/container-registry.html" data-lbl="application-development-cloud-infrastructure-registry">Container Registry</a></h6>
+										<p>A highly available private container registry service for 
+storing and sharing container images within the same regions as the 
+deployments.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/application-development/visual-builder-studio/" data-lbl="application-development-visual-builder">Visual Builder Studio</a></h6>
+										<p>A complete, integrated platform that enables development 
+teams to develop and deliver cloud native applications. Oracle Visual 
+Builder Studio integrates the features of Oracle Visual Builder and 
+Oracle Developer Cloud Service to cover the full development lifecycle, 
+from planning to delivery and hosting.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/cloud-native/functions/" data-lbl="application-development-functions">Functions</a></h6>
+										<p>Functions is a fully managed, highly scalable, on-demand, 
+functions-as-a-service platform, built on enterprise-grade Oracle Cloud 
+Infrastructure and powered by the Fn Project open source engine.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/cloud-native/events-service/" data-lbl="application-development-registry-events">Events Service</a></h6>
+										<p>Events is a fully-managed service that enables users to 
+easily track changes across their Oracle Cloud Infrastructure resources 
+and respond to them in near-real-time using Functions, Notifications, 
+and Streaming services. </p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/application-development/cloud-services/java/" data-lbl="application-development-java">Java</a></h6>
+						<p>Easy, rapid, and agile deployment of any Java application. 
+Experience full control and flexibility of your application in public 
+cloud.</p>
+									</div>
+								</div>
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/cloud-native/api-gateway/" data-lbl="application-development-api-platform">API Gateway</a></h6>
+										<p>A highly available, fully managed gateway that enables you 
+to build scalable and secure cloud native applications with RESTful APIs
+ to back-end services, such as Oracle Container Engine for Kubernetes, 
+Oracle Cloud Infrastructure Registry, and Oracle Functions.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/application-development/cloud-services/mobile/" data-lbl="application-development-mobile-hub">Mobile Hub</a></h6>
+										<p>Quickly build, deploy, and manage mobile apps that connect 
+to Oracle ERP, HCM, CX, or any third-party system, on premise or in the 
+cloud.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/database/nosql-cloud.html" data-lbl="application-development-nosql">Oracle NoSQL Database Cloud Service</a></h6>
+										<p>A NoSQL Database Cloud Service with on-demand throughput 
+and storage-based provisioning that supports document, columnar, and 
+key-value data models, all with flexible transaction guarantees.</p>
+									</div>
+								</div>
+
+
+
+
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/application-development/cloud-services/visual-builder/" data-lbl="application-development-visual-builder">Visual Builder</a></h6>
+										<p>Rapidly create and deploy engaging web and mobile apps 
+directly from the browser using a visual browser-based development 
+environment.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/application-development/cloud-services/digital-assistant/" data-lbl="cloud-infrastructure-digital-assistant">Digital Assistant</a></h6>
+										<p>Oracle Digital Assistant provides the platform and tools to
+ easily build AI-powered assistants that connect to your back-end 
+applications. A digital assistant uses AI for natural language 
+processing and understanding to automate engagements with conversational
+ interfaces that respond instantly, improve user satisfaction, and 
+increase business efficiencies.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/data-science/cloud-infrastructure-data-science.html" data-lbl="application-development-data-science-cloud">Data Science</a></h6>
+										<p>Oracle Data Science Service enables data science teams to 
+easily organize their work, access data and computing resources, and 
+build, train, deploy, and manage models on Oracle Cloud. The platform 
+makes teams more productive and enables them to deploy more work faster 
+to power their organizations with machine learning.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/application-development/cloud-services/blockchain-platform/" data-lbl="application-development-blockchain">Blockchain Platform</a></h6>
+										<p>A comprehensive, distributed, ledger cloud platform to 
+provision blockchain networks, join other organizations, and deploy and 
+run smart contracts to update and query the ledger. Reliably share data 
+and conduct trusted transactions with suppliers, banks, and other trade 
+partners through integration with existing or new cloud-based or 
+on-premise applications.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/content-and-experience-management/" data-lbl="application-development-oracle-content-and-experience">Oracle Content and Experience</a></h6>
+										<p>Oracle Content and Experience is a centralized platform for
+ all of your digital assets that enables you to deliver exceptional 
+interactions that are channel-agnostic. This agile asset hub leverages 
+AI and machine learning to help users create experiences that can 
+respond to all combinations of audience profiles and intent. It supports
+ all types of content, and delivers capabilities intuitive enough to be 
+fully run at the business level.</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-item">
+					<div class="col-item-w1" style="height: 162.467px;">
+						<div class="icn-img icn-applied-software-technologies"><br></div>
+						<h4>Applied Software Technologies</h4>
+					<div class="rc07w3 icn-img icn-chevron-down"></div></div>
+					<div class="rc07content">
+						<h5><a href="https://www.oracle.com/emerging-technologies/" data-lbl="applied-software-technologies">Applied Software Technologies</a></h5>
+						<div class="col-framework col3 col-gutters col-multi col-noanimation">
+							<div class="col-w1">
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/artificial-intelligence/" data-lbl="emerging-technologies-artificial-intelligence">Artificial Intelligence</a></h6>
+										<p>Oracle Artificial Intelligence Platform Cloud Service and 
+AI-enabled applications comprise a collection of products and 
+capabilities across the modern machine learning lifecycle for leveraging
+ and building intelligent applications across all lines of business.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/blockchain/" data-lbl="emerging-technologies-blockchain">Blockchain</a></h6>
+										<p>Oracle Blockchain Platform allows organizations to adopt 
+blockchain services that provide end-to-end visibility into 
+multienterprise supply chain networks, establish trust between 
+participating trading partners, and reduce development time.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/data-science/cloud-infrastructure-data-science.html" data-lbl="emerging-technologies-ai-platform">Data Science</a></h6>
+										<p>Oracle Data Science enables data science teams to easily 
+organize their work, access data and computing resources, and build, 
+train, deploy, and manage models on Oracle Cloud. The platform makes 
+teams more productive and enables them to deploy more work faster to 
+power their organizations with machine learning.</p>										
+	                                </div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/application-development/cloud-services/digital-assistant/" data-lbl="emerging-technologies-digital-assistant">Digital Assistant</a></h6>
+										<p>Oracle Digital Assistant provides the platform and tools to
+ easily build AI-powered assistants that connect to your back-end 
+applications. A digital assistant uses artificial intelligence for 
+natural language processing and understanding to automate engagements 
+with conversational interfaces that respond instantly, improve user 
+satisfaction, and increase business efficiencies.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/artificial-intelligence/what-is-machine-learning.html" data-lbl="emerging-technologies--machine-learning">Machine Learning</a></h6>
+						                <p>Oracle Machine Learning is a collaborative 
+web-based interface that provides a development environment for 
+organizations to create data-mining notebooks within Oracle Autonomous 
+Database that can perform data analytics, data discovery, and data 
+visualizations.</p>
+									</div>
+								</div>
+								<div class="col-item">
+									<div class="col-item-w1">
+										<h6><a href="https://www.oracle.com/cloud/tactical-edge.html" data-lbl="emerging-technologies-tactical-edge-cloud">Tactical Edge Cloud</a></h6>
+						                <p>Oracle Tactical Edge Cloud is a device that 
+allows organizations to run applications and analyze and store data at 
+edge locations where communications back to the cloud is often 
+intermittent. The device provides compute and storage infrastructure 
+along with platform software, allowing teams to build and deploy 
+applications and data out to edge. When communications is restored, data
+ sync can occur between the edge device and the cloud.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- /RC07v0 -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- RC03v0 -->
+<section class="rc03 rc03v0 cpad" data-trackas="rc03" data-ocomid="rc03">
+	<div class="rc03w1 cwidth">
+		<div class="rc03w2">
+			<div class="rc03w3">
+				<h2 class="rwaccent-2">Why Oracle Generation 2 Cloud Infrastructure?</h2>
+			</div>
+			<div class="rc03w4">
+				<p>Oracle Cloud is a Generation 2 enterprise cloud that delivers 
+powerful compute and networking performance and includes a comprehensive
+ portfolio of infrastructure and platform cloud services. Built from the
+ ground up to meet the needs of mission-critical applications, Oracle 
+Cloud supports all legacy workloads while delivering modern cloud 
+development tools, enabling enterprises to bring their past forward as 
+they build their future.  Our Generation 2 Cloud is the only one built 
+to run Oracle Autonomous Database, the industry's first and only 
+self-driving database. Oracle Cloud offers a comprehensive cloud 
+computing portfolio, from application development and business analytics
+ to data management, integration, security, artificial intelligence 
+(AI), and blockchain.</p>
+
+				<div class="obttns">
+					<div>
+						<a href="https://explore.oracle.com/oci-ocom/oci-platform-review/?source=:ow:o:p:mt::RC_NAMK200507P00101:OCIPlatformOverview&amp;intcmp=:ow:o:p:mt::RC_NAMK200507P00101:OCIPlatformOverview&amp;cmid=NAMK200507P00101&amp;lb-mode=overlay" rel="lightbox" title="Oracle Cloud Infrastructure Platform Overview" id="demo" data-iframe="true" data-theme="pathfactory" data-width="1800" data-height="800" tabindex="0" data-lbl="oracle-cloud-infrastructure-platform-overview-lightbox-open-lightbox-open" data-trackas="lightbox">Oracle Cloud Infrastructure Platform Overview (PDF)</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+
+		<div class="rc03carousel slick-initialized slick-slider slick-dotted">
+			<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4440px; transform: translate3d(-740px, 0px, 0px);"><div class="carousel-item slick-slide slick-cloned" title="Deep enterprise technology expertise" data-slick-index="-1" aria-hidden="true" style="width: 740px;" tabindex="-1">
+	            <div class="rc03slide">
+	                <div class="rc03featured">
+	                    <img data-src="/a/ocom/img/rc03-cloud-infra-deep-expertise.gif" alt="Deep enterprise technology expertise">
+	                </div>
+	                <div class="rc03tile darktheme">
+	                	<h3>Deep enterprise technology expertise</h3>
+	                	<p>Oracle's deep expertise is built on more than forty
+ years of providing the database technologies, business applications, 
+and cloud platforms that enterprises choose to address their most 
+important business challenges. With the latest high-end components, 
+support for third-party and open technologies, unique support for hybrid
+ and multicloud strategies, and an unwavering commitment to protecting 
+sensitive business data, Oracle Cloud Infrastructure is perfectly suited
+ to meet the needs—and exceed the expectations of—today's enterprise IT 
+teams.</p>
+                                <a href="https://www.oracle.com/us/solutions/cloud/cloudessentials-oci-5100435.pdf" target="_blank" data-lbl="cloud-essentials-guide:purpose-built-for-the-enterprise(guide)" tabindex="-1">Guide: Oracle Cloud Infrastructure: Purpose-Built for the Enterprise (PDF)</a>
+	                </div>
+	        	</div>
+			</div><div class="carousel-item slick-slide slick-current slick-active" title="Outstanding price-performance" data-slick-index="0" aria-hidden="false" style="width: 740px;" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10">
+	            <div class="rc03slide rc03order" style="height: 485px;">
+	                <div class="rc03featured">
+	                    <img data-src="/a/ocom/img/rc03-cloud-infra-outstanding-price-performance.png" alt="Outstanding price-performance">
+	                </div>
+	                <div class="rc03tile darktheme">
+	                	<h3>Outstanding price-performance</h3>
+	                	<p>Running big workloads at scale gets expensive on 
+other clouds. Oracle's enterprise-class cloud delivers industry-leading 
+price-performance and tremendous value to customers running workloads 
+that matter. With Oracle, pricing is low and predictable across all 
+regions and services. And Oracle backs performance claims with the best 
+service-level agreement (SLA) in the business. Oracle Cloud 
+Infrastructure is the only major cloud provider with an SLA that covers 
+performance and manageability in addition to uptime requirements.</p>
+                                <a href="https://www.oracle.com/a/ocom/docs/cloud/pique-solutions-migrating-enterprise-workloads-to-cloud.pdf" target="_blank" data-lbl="migrating-enterprise-workloads-to-cloud(ebook)" tabindex="0">White
+ paper: Pique Solutions: Migrating Enterprise Workloads to the Cloud: 
+Customer Experiences with Oracle Cloud and Amazon Web Services (PDF)</a>
+	                </div>
+	        	</div>
+			</div><div class="carousel-item slick-slide" title="Secure by design" data-slick-index="1" aria-hidden="true" style="width: 740px;" tabindex="-1" role="tabpanel" id="slick-slide11" aria-describedby="slick-slide-control11">
+	            <div class="rc03slide" style="height: 485px;">
+	                <div class="rc03featured">
+	                    <img data-src="/a/ocom/img/rc03-cloud-infra-security-first.png" alt="Secure by design">
+	                </div>
+	                <div class="rc03tile darktheme">
+	                	<h3>Secure by design</h3>
+	                	<p>Oracle has built security into products and 
+protected customers’ sensitive data for decades. We provide the highest 
+levels of security for customers who have trusted Oracle to securely 
+manage their data and business-critical applications, including Oracle 
+Autonomous Database and Oracle applications.  Oracle Cloud is secure by 
+design, with the next generation of cloud infrastructure that was 
+conceived and architected with the principle that security comes first. 
+Oracle security is about a well-thought–out and integrated layered 
+approach, with controls built within the application and database 
+ecosystem to leverage the hardened cloud infrastructure designed to 
+identify and respond to threats.</p>
+                                <a href="https://www.oracle.com/a/ocom/docs/security/modern-defense-in-depth.pdf" target="_blank" data-lbl="modern-defense-in-depth(ebook)" tabindex="-1">Ebook: Modern Defense In-Depth: Cybersecurity in the Era of the Cloud (PDF)</a>
+	                </div>
+	        	</div>
+			</div><div class="carousel-item slick-slide" title="The open cloud for enterprise" data-slick-index="2" aria-hidden="true" style="width: 740px;" tabindex="-1" role="tabpanel" id="slick-slide12" aria-describedby="slick-slide-control12">
+	            <div class="rc03slide" style="height: 485px;">
+	                <div class="rc03featured">
+	                    <img data-src="/a/ocom/img/rc03-cloud-infra-open-cloud.png" alt="The open cloud for enterprise">
+	                </div>
+	                <div class="rc03tile darktheme">
+	                	<h3>The open cloud for enterprise</h3>
+	                	<p>Oracle Cloud supports what our customers run, 
+avoiding the requirement to rebuild for a proprietary platform. Whether 
+Oracle software, third-party options, or open source, customers can run 
+what they choose without modification, tradeoffs, or lock-in. Oracle is 
+committed to open source as a Platinum member of the Cloud Native 
+Computing Foundation. Finally, Oracle embraces interoperable standards, 
+including Terraform, Kubernetes, and Helm, and has built software 
+development kits for customers to use in hybrid environments and across 
+multiple clouds.</p>
+	                </div>
+	        	</div>
+			</div><div class="carousel-item slick-slide" title="Deep enterprise technology expertise" data-slick-index="3" aria-hidden="true" style="width: 740px;" tabindex="-1" role="tabpanel" id="slick-slide13" aria-describedby="slick-slide-control13">
+	            <div class="rc03slide" style="height: 485px;">
+	                <div class="rc03featured">
+	                    <img data-src="/a/ocom/img/rc03-cloud-infra-deep-expertise.gif" alt="Deep enterprise technology expertise">
+	                </div>
+	                <div class="rc03tile darktheme">
+	                	<h3>Deep enterprise technology expertise</h3>
+	                	<p>Oracle's deep expertise is built on more than forty
+ years of providing the database technologies, business applications, 
+and cloud platforms that enterprises choose to address their most 
+important business challenges. With the latest high-end components, 
+support for third-party and open technologies, unique support for hybrid
+ and multicloud strategies, and an unwavering commitment to protecting 
+sensitive business data, Oracle Cloud Infrastructure is perfectly suited
+ to meet the needs—and exceed the expectations of—today's enterprise IT 
+teams.</p>
+                                <a href="https://www.oracle.com/us/solutions/cloud/cloudessentials-oci-5100435.pdf" target="_blank" data-lbl="cloud-essentials-guide:purpose-built-for-the-enterprise(guide)" tabindex="-1">Guide: Oracle Cloud Infrastructure: Purpose-Built for the Enterprise (PDF)</a>
+	                </div>
+	        	</div>
+			</div><div class="carousel-item slick-slide slick-cloned" title="Outstanding price-performance" data-slick-index="4" aria-hidden="true" style="width: 740px;" tabindex="-1">
+	            <div class="rc03slide rc03order">
+	                <div class="rc03featured">
+	                    <img data-src="/a/ocom/img/rc03-cloud-infra-outstanding-price-performance.png" alt="Outstanding price-performance">
+	                </div>
+	                <div class="rc03tile darktheme">
+	                	<h3>Outstanding price-performance</h3>
+	                	<p>Running big workloads at scale gets expensive on 
+other clouds. Oracle's enterprise-class cloud delivers industry-leading 
+price-performance and tremendous value to customers running workloads 
+that matter. With Oracle, pricing is low and predictable across all 
+regions and services. And Oracle backs performance claims with the best 
+service-level agreement (SLA) in the business. Oracle Cloud 
+Infrastructure is the only major cloud provider with an SLA that covers 
+performance and manageability in addition to uptime requirements.</p>
+                                <a href="https://www.oracle.com/a/ocom/docs/cloud/pique-solutions-migrating-enterprise-workloads-to-cloud.pdf" target="_blank" data-lbl="migrating-enterprise-workloads-to-cloud(ebook)" tabindex="-1">White
+ paper: Pique Solutions: Migrating Enterprise Workloads to the Cloud: 
+Customer Experiences with Oracle Cloud and Amazon Web Services (PDF)</a>
+	                </div>
+	        	</div>
+			</div></div></div>
+			
+			
+			
+		<ul class="slick-dots" role="tablist"><li class="slick-active" role="presentation"><button aria-pressed="true" role="tab" id="slick-slide-control10" aria-controls="slick-slide10" aria-label="1 of 4" tabindex="0" aria-selected="true"><span class="rc03accent"></span><a>Outstanding price-performance</a></button></li><li role="presentation"><button aria-pressed="false" role="tab" id="slick-slide-control11" aria-controls="slick-slide11" aria-label="2 of 4" tabindex="-1"><span class="rc03accent"></span><a>Secure by design</a></button></li><li role="presentation"><button aria-pressed="false" role="tab" id="slick-slide-control12" aria-controls="slick-slide12" aria-label="3 of 4" tabindex="-1"><span class="rc03accent"></span><a>The open cloud for enterprise</a></button></li><li role="presentation"><button aria-pressed="false" role="tab" id="slick-slide-control13" aria-controls="slick-slide13" aria-label="4 of 4" tabindex="-1"><span class="rc03accent"></span><a>Deep enterprise technology expertise</a></button></li></ul></div>
+</div></section>
+<!-- /RC03v0 -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- RC02v0 -->
+<section class="rc02 rc02v0 darktheme cpad o-bgimg" data-trackas="rc02" data-ocomid="rc02" data-bgimg="/a/ocom/img/rc02-cloud-overview-difference.jpg">
+	<div class="rc02w1 cwidth">
+		<h3 class="rwaccent rwaccent-narrow">Cloud infrastructure—see the difference</h3>
+		<div class="rc02w2 col-framework col3 col-gutters">
+			<div class="col-w1">
+				<a href="https://www.oracle.com/cloud/pricing.html" class="col-item" data-lbl="learn">
+					<div class="col-item-w1" style="height: 110.767px;">
+						<div class="icn-img icn-education beforewhite"><br></div>
+						<h4>Learn about flexible pricing options</h4>
+					</div>
+					<div class="col-item-w3"><div class="icn-img icn-cv-right"><br></div></div>
+				</a>
+				<a href="https://www.oracle.com/cloud/free/?source=:ow:o:s:po:0917CloudSEEDIF&amp;intcmp=:ow:o:s:po:0917CloudSEEDIF" class="col-item" data-lbl="test-drive">
+					<div class="col-item-w1" style="height: 110.767px;">
+						<div class="icn-img icn-download beforewhite"><br></div>
+						<h4>Try Oracle Cloud Free Tier</h4>
+					</div>
+					<div class="col-item-w3"><div class="icn-img icn-cv-right"><br></div></div>
+				</a>
+				<a href="https://www.oracle.com/cloud/cost-estimator.html" class="col-item" data-lbl="estimate-your-cost">
+					<div class="col-item-w1" style="height: 86.7667px;">
+						<div class="icn-img icn-buy beforewhite"><br></div>
+						<h4>Estimate your costs</h4>
+					</div>
+					<div class="col-item-w3"><div class="icn-img icn-cv-right"><br></div></div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- /RC02v0 -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- RC01v0 -->
+<section class="rc01 rc01v0 cpad" data-trackas="rc01" data-ocomid="rc01">
+	<div class="rc01w1 cwidth">
+		<div class="o-crsl col1 crsl-full" data-ocomid="ocrsl">
+			<div class="crsl-slider slick-initialized slick-slider slick-dotted slick-dotted-hidden">
+
+				<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 740px; transform: translate3d(0px, 0px, 0px);"><div class="col-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 740px;" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00">
+					<div class="col-framework col2 col2-thirds-col1">
+						<div class="col-w1">
+							<div class="col-item">
+								<div class="col-item-w1"><img data-src="/a/ocom/img/rc01-oci-region-map-865-362.png" alt="Oracle Data Regions" data-lbl="reach-new-heights-with-oracle-cloud-image"></div>
+							</div>
+							<div class="col-item">
+								<div class="col-item-w1">
+								<!-- <h4>Oracle Data Regions</h4> -->
+								<h3>Oracle Cloud Regions</h3>								<!-- <h3>Oracle Builds on Cloud Momentum with Five New Regions Worldwide</h3> -->
+								<p> Built on the Generation 2 Cloud, Oracle is meeting the needs
+ of our enterprise customers worldwide that require geographical 
+distributed regions for true business continuity, disaster protection, 
+and regional compliance requirements.</p>
+							<div class="obttns">
+								<div>
+									<a href="https://www.oracle.com/cloud/architecture-and-regions.html" data-lbl="oracles-cloud-architecture-and-global-cloud-regions" tabindex="0">Oracle’s Cloud Architecture and Global Cloud Regions</a>
+								</div>
+							</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div></div></div>
+
+			</div>
+		<div class="crsl-nav slick-nav rw-rect"><ul class="slick-dots hide" role="tablist"><li class="slick-active" role="presentation"><button type="button" aria-pressed="true" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 1" tabindex="0" aria-selected="true">1</button></li></ul></div></div>
+	</div>
+</section>
+<!-- /RC01v0 -->
+
+
+
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- RC13v0 -->
+<section class="rc13 rc13v0 cpadx darktheme" data-trackas="rc13" data-ocomid="rc13">
+	<div class="rc13w1 cwidth">
+        <div class="rc13w2">
+            <div class="rc13w3">
+                <h3 class="rwaccent-2">Key use cases for Oracle Generation 2 Cloud Infrastructure</h3>
+            </div>
+            <div class="rc13w4">
+                <!-- <a href="placeholder.html">View more key use cases</a> -->
+            </div>
+        </div>
+        <div class="rc13w5 col-framework col-justified col4 col-gutters">
+            <div class="col-w1">
+                <div class="col-item">
+                    <div class="col-item-w1">
+                        <h4>Move and improve database workloads</h4>
+                        <p>Whether Oracle Applications or 
+custom/third-party apps on Oracle Database, Oracle Cloud is the best 
+place to run critical transactional applications.</p>
+                    </div>
+                    <div class="col-item-w2">
+                        <a href="https://www.oracle.com/database/technologies/cloud-migration.html" data-lbl="cta-migrate-to-the-cloud">Migrate to the cloud</a>
+                    </div>
+                </div>
+                <div class="col-item">
+                    <div class="col-item-w1">
+                        <h4>High performance compute in the cloud</h4>
+							<p>Oracle delivers higher performance and better capabilities at 
+lower cost-to-power simulation, modeling, and other types of HPC 
+workloads in the cloud.</p>
+                    </div>
+                    <div class="col-item-w2">
+                        <a href="https://www.oracle.com/cloud/solutions/hpc.html" data-lbl="run-hpc">Move HPC workloads</a>
+                    </div>
+                </div>
+                <div class="col-item">
+                    <div class="col-item-w1">
+                        <h4>Data-driven transformation</h4>
+							<p>Data-centric applications require bandwidth, horsepower, and 
+effective tools. Oracle Cloud delivers all three, letting users get more
+ out of their data.</p>
+                    </div>
+                    <div class="col-item-w2">
+                        <a href="https://www.oracle.com/big-data/" data-lbl="cta-harness-big-data">Harness big data</a>
+                    </div>
+                </div>
+                <div class="col-item">
+                    <div class="col-item-w1">
+                        <h4>Autonomous data management</h4>
+						<p>Eliminate complexity, human error, and manual management for maximum insight from data of all types.</p>
+                    </div>
+                    <div class="col-item-w2">
+                        <a href="https://www.oracle.com/database/autonomous-database/" data-lbl="learn-about-oracle-autonomous-database">Discover autonomous</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="rc13w6">
+           <!--  <a href="placeholder.html">View more key use cases</a>  -->
+        </div> 
+	</div>
+</section>
+<!-- /RC13v0 -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- RC28v0 -->
+<section class="rc28 rc28v0 rw-neutral-150bg cpad cmp-overlap" data-ocomid="rc28" data-trackas="rc28" data-lbl="customer-successes:">
+    <div class="rc28w1 cwidth">
+        <strong><a href="https://www.oracle.com/cloud/customers/">View all customer successes</a></strong>
+        <h2 class="rw-ptitle">Oracle Cloud customer successes</h2>
+        <p class="rw-intro"></p>
+        <div class="col-framework col4 col-2upmobile col-multi col-gutters">
+            <div class="col-w1">
+                <div class="col-item">
+                    <img data-src="/a/ocom/img/customerlogo-7eleven.svg" alt="7-eleven logo">
+                </div>
+                <div class="col-item">
+                    <img data-src="/a/ocom/img/customerlogo-zoom.svg" alt="zoom logo">
+                </div>
+                <div class="col-item">
+                    <img data-src="/a/ocom/img/customerlogo-cisco.svg" alt="Cisco logo">
+                </div>
+                 <div class="col-item">
+                    <img data-src="/a/ocom/img/customerlogo-8x8.svg" alt="8x8 logo">
+                </div>
+                <div class="col-item">
+                    <img data-src="/a/ocom/img/customerlogo-vodafone.png" alt="Vodafone logo">
+                </div>
+                <div class="col-item">
+                    <img data-src="/a/ocom/img/customerlogo-siemens.png" alt="Siemens logo">
+                </div>
+                <div class="col-item">
+                    <img data-src="/a/ocom/img/customerlogo-sky.svg" alt="Sky logo">
+                </div>
+                <div class="col-item">
+                    <img data-src="/a/ocom/img/customerlogo-cern.svg" alt="CERN logo">
+                </div>
+            </div>
+        </div>
+        <div class="rc28w2 rw-neutral-180bg rw-pattern6w rw-pattern-20p">
+            <div class="rc28w3" data-bgimg="/a/ocom/img/rc28-care-customer-story.png"></div>
+            <div class="rc28w4">
+                <img data-src="/a/ocom/img/customerlogo-care.png" alt="CARE logo">
+                <h3>Oracle Cloud helps CARE streamline operations</h3>
+                <div class="obttns">
+                    <div>
+                        <a href="https://www.oracle.com/customers/infrastructure/care/">Read the story</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /RC28v0 -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- RC05v0 -->
+<section class="rc05 rc05v0 cpad" data-trackas="rc05" data-ocomid="rc05">
+	<div class="rc05w1 cwidth">
+	<!--<div class="rc05link"><a href="/cloud/customers/">View all customer successes</a></div>-->
+        <h1 class="rwaccent">You might also like</h1>
+        <div class="o-crsl crsl-customjs" data-ocomid="ocrsl">
+            <section class="rc05w2 slick-initialized slick-slider slick-dotted">
+ 
+                <!--<div class="carousel-item">
+                    <a href="?bcid=6170261325001" rel="vbox" data-trackas="rc05-lightbox" data-lbl="larry-introduces-autonomous-services"  class="rc05w3 basic" data-bgimg="/a/ocom/img/rc05-bg2.png">
+                        <div class="rc05w4">
+                            <div class="rc05logo"></div>
+                            <div class="rc05contentarea">
+                                <div class="rc05heading">Larry Ellison introduces new Oracle autonomous services for your data center</div>
+                                <div class="rc05subcopy">Watch the video (58:19)</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>        -->        
+
+                 
+
+                
+  
+                 
+
+                
+              
+            
+               <!--<div class="carousel-item">
+                    <a href="//www.oracle.com/customers/infrastructure/care/" class="rc05w3" data-lbl="oracle-cloud-helps-care-streamline-operations" data-bgimg="/a/ocom/img/rc05-customerstorycard-care.jpg">
+                        <div class="rc05w4">
+                            <div class="rc05logo" data-bgimg="/a/ocom/img/rc05-logo-care.png" alt="CARE logo"></div>
+                            <div class="rc05contentarea">
+                                <div class="rc05heading">Oracle Cloud helps CARE streamline operations</div>
+                                <div class="rc05subcopy">Care uses Oracle Cloud Infrastructure to accelerate change, improve financial and supply chain functions, and deliver humanitarian services.</div>
+                                <div class="rc05refs">
+                                    <div class="rc05cat">Oracle Cloud Infrastructure</div>
+                                    <div class="rc05detail"><span class="rc05lbl">Industry:</span><span class="rc05def">PROFESSIONAL SERVICES</span></div>
+                                    <div class="rc05detail"><span class="rc05lbl">Location:</span><span class="rc05def">UNITED STATES</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>-->
+
+
+
+               <!--  <div class="carousel-item">
+                    <a href="//www.oracle.com/customers/infrastructure/cern/" class="rc05w3" data-lbl="oracle-cloud-helps-cern-explore-our-universe"  data-bgimg="/a/ocom/img/rc05-customer-cern.jpg">
+                        <div class="rc05w4">
+                            <div class="rc05logo " data-bgimg="/a/ocom/img/rc05-logo-cern.svg" alt="CERN logo"></div>
+                            <div class="rc05contentarea">
+                                <div class="rc05heading">Oracle Cloud helps CERN explore our universe</div>
+                                <div class="rc05subcopy">Nobel Prize-winning research organization trials Oracle  Autonomous Database to manage its vast quantities of data.</div>
+                                <div class="rc05refs">
+                                    <div class="rc05cat">Oracle Cloud Infrastructure <br/>Oracle Autonomous  Database</div>
+                                   <div class="rc05detail"><span class="rc05lbl">Industry:</span><span class="rc05def">Education and Research</span></div>
+
+                                    <div class="rc05detail"><span class="rc05lbl">Location:</span><span class="rc05def">Switzerland</span></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+                </div> -->
+
+
+
+               <!-- <div class="carousel-item">
+                    <a href="//www.oracle.com/customers/infrastructure/drop-tank/" class="rc05w3" data-bgimg="/a/ocom/img/rc05-customer-storycard-droptank.jpg">
+                        <div class="rc05w4">
+                            <div class="rc05logo " data-bgimg="/a/ocom/img/rc05-logo-droptank.svg" alt="Drop Tank logo"></div>
+                            <div class="rc05contentarea">
+                                <div class="rc05heading">Oracle Cloud fuels Drop Tank’s next-gen  loyalty programs</div>
+                                <div class="rc05subcopy">Drop Tank uses Oracle Cloud Infrastructure  and Oracle Autonomous Database to build  fuel rewards programs on a national level.</div>
+                                <div class="rc05refs">
+                                    <div class="rc05cat">Oracle Autonomous Database<br />Oracle Cloud Infrastructure</div>
+                                    <div class="rc05detail"><span class="rc05lbl">Industry:</span><span class="rc05def">Retail</span></div>
+                                    <div class="rc05detail"><span class="rc05lbl">Location:</span><span class="rc05def">United States</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div> -->
+            
+            
+            
+
+
+                <!--
+                <div class="carousel-item">
+                    <a href="//www.oracle.com/webfolder/s/assets/microsite/cloudconfidence/index.html?source=:ow:o:s:mt:RC_WWMK181008P00030:CloudPlatform&intcmp=:ow:o:s:mt:RC_WWMK181008P00030:CloudPlatform" data-lbl="oracle-cloud-infrastructure-ten-reasons"  class="rc05w3 basic" data-bgimg="/a/ocom/img/rc05-related-content-cards-background-03.jpg">
+                        <div class="rc05w4">
+                            <div class="rc05logo"></div>
+                            <div class="rc05contentarea">
+                                <div class="rc05heading">Get Ahead of the Cloud Curve</div>
+                                <div class="rc05subcopy">Take five minutes and find out how you compare with your peers.
+							</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>  -->
+
+                
+                
+                <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4440px; transform: translate3d(-740px, 0px, 0px);"><div class="carousel-item slick-slide slick-cloned" style="width: 740px;" data-slick-index="-1" aria-hidden="true" tabindex="-1">
+                    <a href="https://www.oracle.com/cloud/hbr-global-survey-report.html" data-lbl="hbr-analytics-services-research" class="rc05w3 basic" data-bgimg="/a/ocom/img/rc05-oracle-cloud-1-min.jpeg" tabindex="-1">
+                        <div class="rc05w4">
+                            <div class="rc05logo"></div>
+                            <div class="rc05contentarea">
+                                <div class="rc05heading">Harvard Business Review Analytics Services Research</div>
+                               <div class="rc05subcopy">IT’s 2025 imperative: deliver intelligent automation now.</div>
+                            <div class="rc05refs"><div class="rc05cat"><br></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div></div></div>
+                        </div>
+                    </a>
+                </div><div class="carousel-item slick-slide slick-current slick-active" style="width: 740px;" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide30" aria-describedby="slick-slide-control30">
+                    <a href="https://www.oracle.com/cloud/cloud-at-customer/" data-lbl="cloud@customer" class="rc05w3 basic" data-bgimg="/a/ocom/img/rc05-bg2.png" tabindex="0">
+                        <div class="rc05w4">
+                            <div class="rc05logo"></div>
+                            <div class="rc05contentarea">
+                                <div class="rc05heading">Oracle Cloud@Customer</div>
+                                <div class="rc05subcopy">Oracle Cloud technology at your location.</div>
+                            <div class="rc05refs"><div class="rc05cat"><br></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div></div></div>
+                        </div>
+                    </a>
+                </div><div class="carousel-item slick-slide" style="width: 740px;" data-slick-index="1" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide31" aria-describedby="slick-slide-control31">
+                    <a href="https://www.oracle.com/a/ocom/docs/cloud/21504-oracle-playbook.pdf" data-lbl="cio-guide-to-second-gen-cloud" class="rc05w3 basic" data-bgimg="/a/ocom/img/rc05-related-content-cards-background-03.jpg" tabindex="-1">
+                        <div class="rc05w4">
+                            <div class="rc05logo"></div>
+                            <div class="rc05contentarea">
+                                <div class="rc05heading">CIO’s Guide to Second-Generation Cloud</div>
+                                <div class="rc05subcopy">CIO Magazine looks at how Oracle Cloud paves the way to the “digital first” enterprise.</div>
+                            <div class="rc05refs"><div class="rc05cat"><br></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div></div></div>
+                        </div>
+                    </a>
+                </div><div class="carousel-item slick-slide" style="width: 740px;" data-slick-index="2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide32" aria-describedby="slick-slide-control32">
+                    <a href="https://www.oracle.com/a/ocom/docs/cloud/eiu127-oracle-briefing-paper.pdf" target="_blank" data-lbl="become-data-driven-enterprise" class="rc05w3 basic" data-bgimg="/a/ocom/img/rc05-related-content-cards-background-04.jpg" tabindex="-1">
+                        <div class="rc05w4">
+                            <div class="rc05logo"></div>
+                            <div class="rc05contentarea">
+                                <div class="rc05heading">New research: Becoming a data-driven enterprise</div>
+                                 <!-- <div class="rc05heading">Ten Reasons To Adopt Oracle Cloud</div> -->
+                               <div class="rc05subcopy">New from The Economist Intelligence Unit: cloud strategies for better decision-making.</div>
+                            <div class="rc05refs"><div class="rc05cat"><br></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div></div></div>
+                        </div>
+                    </a>
+                </div><div class="carousel-item slick-slide" style="width: 740px;" data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide33" aria-describedby="slick-slide-control33">
+                    <a href="https://www.oracle.com/cloud/hbr-global-survey-report.html" data-lbl="hbr-analytics-services-research" class="rc05w3 basic" data-bgimg="/a/ocom/img/rc05-oracle-cloud-1-min.jpeg" tabindex="-1">
+                        <div class="rc05w4">
+                            <div class="rc05logo"></div>
+                            <div class="rc05contentarea">
+                                <div class="rc05heading">Harvard Business Review Analytics Services Research</div>
+                               <div class="rc05subcopy">IT’s 2025 imperative: deliver intelligent automation now.</div>
+                            <div class="rc05refs"><div class="rc05cat"><br></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div></div></div>
+                        </div>
+                    </a>
+                </div><div class="carousel-item slick-slide slick-cloned" style="width: 740px;" data-slick-index="4" aria-hidden="true" tabindex="-1">
+                    <a href="https://www.oracle.com/cloud/cloud-at-customer/" data-lbl="cloud@customer" class="rc05w3 basic" data-bgimg="/a/ocom/img/rc05-bg2.png" tabindex="-1">
+                        <div class="rc05w4">
+                            <div class="rc05logo"></div>
+                            <div class="rc05contentarea">
+                                <div class="rc05heading">Oracle Cloud@Customer</div>
+                                <div class="rc05subcopy">Oracle Cloud technology at your location.</div>
+                            <div class="rc05refs"><div class="rc05cat"><br></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div><div class="rc05detail"><span class="rc05lbl"><br></span><span class="rc05def"><br></span></div></div></div>
+                        </div>
+                    </a>
+                </div></div></div></section>
+        <div class="crsl-nav slick-nav rw-rect"><a class="slick-prev slick-arrow" data-lbl="prev-slide" aria-label="Previous" style="">Previous</a><a class="slick-next slick-arrow" data-lbl="next-slide" aria-label="Next" style="">Next</a><ul class="slick-dots" role="tablist"><li class="slick-active" role="presentation"><span class="slide-count">1 / 4</span></li><li role="presentation"><span class="slide-count">1 / 4</span></li><li role="presentation"><span class="slide-count">1 / 4</span></li><li role="presentation"><span class="slide-count">1 / 4</span></li></ul></div></div>
+	</div>
+</section>
+<!-- /RC05v0 -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+<!-- end : ocom/common/global/components/compass/related-widgets -->
+<!-- start : ocom/common/global/components/framework/layoutAssetEndBodyInfo -->
+	<!-- Dispatcher:null -->
+	
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- U10v0 -->
+<div class="u10 u10v6" data-trackas="ffooter" data-ocomid="u10">
+	<div class="u10w1">
+		
+<div class="u10w2">
+<div class="u10w3">
+<h5>Resources for</h5>
+<ul>
+<li><a data-lbl="resources-for:developers" href="https://developer.oracle.com/">Developers</a></li>
+<li><a data-lbl="resources-for:startups" href="https://www.oracle.com/startup/">Startups</a></li>
+<li><a data-lbl="resources-for:students-educators" href="https://academy.oracle.com/en/oa-web-overview.html">Students and Educators</a></li>
+</ul>
+<a class="u10btn"></a></div>
+</div>
+
+<div class="u10w2">
+<div class="u10w3">
+<h5>Partners</h5>
+<ul>
+<li><a data-lbl="partners:oracle-partnernetwork-ocom" href="https://www.oracle.com/partnernetwork/">Oracle PartnerNetwork</a></li>
+<li><a data-lbl="partners:find-a-partner" href="https://partner-finder.oracle.com/">Find a Partner</a></li>
+<li><a data-lbl="partners:login-opn" href="https://www.oracle.com/opn/index.html">Log in to OPN</a></li>
+</ul>
+<a class="u10btn"></a></div>
+</div>	
+
+<div class="u10w2">
+<div class="u10w3">
+<h5>Solutions</h5>
+<ul>
+<li><a data-lbl="emerging-technlogy:artificial-intelligence" href="https://www.oracle.com/artificial-intelligence/">Artificial Intelligence</a></li>
+<li><a data-lbl="emerging-technlogy:internet-of-things" href="https://www.oracle.com/internet-of-things/">Internet of Things</a></li>
+<li><a data-lbl="emerging-technlogy:blockchain" href="https://www.oracle.com/blockchain/">Blockchain</a></li>
+</ul>
+<a class="u10btn"></a></div>
+</div>
+
+<div class="u10w2">
+<div class="u10w3">
+<h5>What’s New</h5>
+<ul>
+<li><a data-lbl="whatsnew:covid-19" href="https://www.oracle.com/corporate/covid-19.html">Oracle’s response to COVID-19</a></li>
+<li><a data-lbl="whatsnew:java-14-downloads" href="https://www.oracle.com/java/technologies/javase-downloads.html">Java SE14 download</a></li>
+<li><a data-lbl="whatsnew:cloud-trial" href="https://www.oracle.com/cloud/free/?source=:ow:o:h:nav:050120SiteFooter&amp;intcmp=:ow:o:h:nav:050120SiteFooter">Try Oracle Cloud Free Tier</a></li>
+
+
+</ul>
+<a class="u10btn"></a></div>
+</div>
+
+
+<div class="u10w2">
+<div class="u10w3">
+<h5>Contact Us</h5>
+<ul>
+<li><a href="tel:18006330738">US Sales: +1.800.633.0738</a></li>
+<li><a data-lbl="contact-us:how-can-we-help" href="https://www.oracle.com/corporate/contact/">How can we help?</a></li>
+<!--<li><a data-lbl="contact-us:support-directory" href="/support/contact.html">Support Directory</a></li>-->
+<li><a data-lbl="contact-us:subscribe-to-emails" href="https://go.oracle.com/subscriptions">Subscribe to emails</a></li>
+</ul>
+<a class="u10btn" aria-owns="u10cmenu"></a></div>
+</div>
+
+<div class="u10w4">
+<hr>
+</div>
+<div class="u10w5" data-trackas="footer">
+<ul class="scl-icons" id="scl-icons">
+<li class="scl-facebook"><a data-lbl="scl-icon:facebook" href="https://www.facebook.com/Oracle/" title="Oracle on Facebook"> </a></li>
+<li class="scl-twitter"><a data-lbl="scl-icon:twitter" href="https://twitter.com/oracle" title="Follow Oracle on Twitter"> </a></li>
+<li class="scl-linkedin"><a data-lbl="scl-icon:linkedin" href="https://www.linkedin.com/company/oracle/" title="Oracle on LinkedIn"> </a></li>
+<li class="scl-youtube"><a data-lbl="scl-icon:you-tube" href="http://www.youtube.com/oracle/" title="Watch Oracle on YouTube"> </a></li>
+</ul>
+
+<div class="u10-ologo"><a data-lbl="integrated-cloud-applications-and-platform-services" href="https://www.oracle.com/">Oracle</a></div>
+<h3>Integrated Cloud Applications &amp; Platform Services</h3>
+
+<ul class="u10-links">
+<li><a data-lbl="copyright" href="https://www.oracle.com/legal/copyright.html">© 2020 Oracle</a></li>
+<li><a data-lbl="site-map" href="https://www.oracle.com/sitemap.html" id="u10footer1" aria-owns="u10footer2">Site Map</a></li>
+<li><a data-lbl="privacy" href="https://www.oracle.com/legal/privacy/" id="u10footer2" aria-owns="u10footer3">Privacy</a><span>/</span><a data-lbl="do-not-sell-my-info" href="https://www.oracle.com/legal/privacy/privacy-choices.html" id="u10footer3" aria-owns="u10footerlast">Do Not Sell My Info</a></li>
+<li class="u10mtool" id="u10cmenu" aria-owns="u10footer1"><a data-lbl="country-region" class="u10ticon u10regn uu10ooverride" href="#u10countrymenu">Country/Region</a><div class="u10menupop u10toolpop"><div id="u10countrymenu">
+		<div class="u10countrymenu" data-lbl="country" role="tree">
+			<ul class="u10cmenu-l1" style="height: 287px;"><li class="u10pttl-li"><h5 class="u10pttl">Country/Region</h5></li>
+				<li class="u10currentcr u10currentdr">
+					<a class="u10clink" role="treeitem" aria-selected="true" aria-expanded="true" aria-labelledby="">Americas</a>
+					<!-- LVL 2 -->
+					<div class="u10cmenu-l2 selected-region" data-lbl="americas" style="height: 287px;">
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="argentina" href="https://www.oracle.com/ar/" role="treeitem">Argentina</a></li>
+							<li><a data-lbl="brasil" href="https://www.oracle.com/br/" role="treeitem">Brasil</a></li>
+							<li><a data-lbl="canada-english" href="https://www.oracle.com/ca-en/" role="treeitem">Canada-English</a></li>
+							<li><a data-lbl="canada-french" href="https://www.oracle.com/ca-fr/" role="treeitem">Canada-Français</a></li>
+							<li><a data-lbl="chile" href="https://www.oracle.com/cl/" role="treeitem">Chile</a></li>
+							<li><a data-lbl="columbia" href="https://www.oracle.com/co/" role="treeitem">Colombia</a></li>
+							<li><a data-lbl="costa-rica" href="https://www.oracle.com/cr/" role="treeitem">Costa Rica</a></li>
+						</ul>
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="latin-america" href="https://www.oracle.com/lad/" role="treeitem">Latinoamérica</a></li>
+							<li><a data-lbl="mexico" href="https://www.oracle.com/mx/" role="treeitem">México</a></li>
+							<li><a data-lbl="peru" href="https://www.oracle.com/pe/" role="treeitem">Perú</a></li>
+							<li><a data-lbl="puerto-rico" href="https://www.oracle.com/pr/" role="treeitem">Puerto Rico</a></li>
+							<li><a class="u10currentcc" data-lbl="united-states" href="https://www.oracle.com/" role="treeitem">United States</a></li>
+							<li><a data-lbl="venezuela" href="https://www.oracle.com/ve/" role="treeitem">Venezuela</a></li>
+						</ul>
+					</div>
+					<!-- / LVL 2 -->
+				</li>
+				<li>
+					<a class="u10clink" role="treeitem" aria-selected="false" aria-expanded="false" aria-labelledby="">Asia Pacific</a>
+					<!-- LVL 2 -->
+					<div class="u10cmenu-l2" data-lbl="asia-pacific">
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="asean" href="https://www.oracle.com/asiasouth" role="treeitem">ASEAN</a></li>
+							<li><a data-lbl="australia" href="https://www.oracle.com/au/" role="treeitem">Australia</a></li>
+							<li><a data-lbl="china" href="https://www.oracle.com/cn/" role="treeitem">中国-简体中文</a></li>
+							<li><a data-lbl="hong-kong" href="https://www.oracle.com/hk/" role="treeitem">Hong Kong SAR, PRC</a></li>
+							<li><a data-lbl="india" href="https://www.oracle.com/in/" role="treeitem">India</a></li>
+							<li><a data-lbl="indonesia" href="https://www.oracle.com/id/" role="treeitem">Indonesia</a></li>
+							<li><a data-lbl="japan" href="https://www.oracle.com/jp/" role="treeitem">日本</a></li>
+							<li><a data-lbl="korea" href="https://www.oracle.com/kr/" role="treeitem">대한민국</a></li>
+							<li><a data-lbl="malaysia" href="https://www.oracle.com/my/" role="treeitem">Malaysia</a></li>
+						</ul>
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="mongolia" href="https://www.oracle.com/mn/" role="treeitem">Mongolia</a></li>
+							<li><a data-lbl="new-zealand" href="https://www.oracle.com/nz/" role="treeitem">New Zealand</a></li>
+							<li><a data-lbl="pakistan" href="https://www.oracle.com/pk/" role="treeitem">Pakistan</a></li>
+							<li><a data-lbl="philippines" href="https://www.oracle.com/ph/" role="treeitem">Philippines</a></li>
+							<li><a data-lbl="singapore" href="https://www.oracle.com/sg/" role="treeitem">Singapore</a></li>
+							<li><a data-lbl="sri-lanka" href="https://www.oracle.com/lk/" role="treeitem">Sri Lanka</a></li>
+							<li><a data-lbl="taiwan" href="https://www.oracle.com/tw/" role="treeitem">台灣-繁體中文</a></li>
+							<li><a data-lbl="thailand" href="https://www.oracle.com/th/" role="treeitem">Thailand</a></li>
+							<li><a data-lbl="vietnam" href="https://www.oracle.com/vn/" role="treeitem">Vietnam</a></li>
+						</ul>
+					</div>
+					<!-- / LVL 2 -->
+				</li>
+				<li>
+					<a class="u10clink" role="treeitem" aria-selected="false" aria-expanded="false" aria-labelledby="">Europe</a>
+					<!-- LVL 2 -->
+					<div class="u10cmenu-l2" data-lbl="europe">
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="austria" href="https://www.oracle.com/at/" role="treeitem">Österreich</a></li>
+							<li><a data-lbl="belgium" href="https://www.oracle.com/be/" role="treeitem">Belgium</a></li>
+							<li><a data-lbl="bosnia-and-herzegovina" href="https://www.oracle.com/ba/" role="treeitem">Bosna i Hercegovina</a></li>
+							<li><a data-lbl="bulgaria" href="https://www.oracle.com/bg/" role="treeitem">Bulgaria</a></li>
+							<li><a data-lbl="croatia" href="https://www.oracle.com/hr/" role="treeitem">Croatia</a></li>
+							<li><a data-lbl="cyprus" href="https://www.oracle.com/cy/" role="treeitem">Cyprus</a></li>
+							<li><a data-lbl="czech-republic" href="https://www.oracle.com/cz/" role="treeitem">Česká Republika</a></li>
+							<li><a data-lbl="denmark" href="https://www.oracle.com/dk/" role="treeitem">Danmark</a></li>
+							<li><a data-lbl="estonia" href="https://www.oracle.com/ee/" role="treeitem">Eesti</a></li>
+							<li><a data-lbl="finland" href="https://www.oracle.com/fi/" role="treeitem">Suomi</a></li>
+							<li><a data-lbl="france" href="https://www.oracle.com/fr/" role="treeitem">France</a></li>
+							<li><a data-lbl="germany" href="https://www.oracle.com/de/" role="treeitem">Deutschland</a></li>
+							<li><a data-lbl="greece" href="https://www.oracle.com/gr/" role="treeitem">Ελλάδα</a></li>
+							<li><a data-lbl="hungary" href="https://www.oracle.com/hu/" role="treeitem">Magyarország</a></li>
+							<li><a data-lbl="ireland" href="https://www.oracle.com/ie/" role="treeitem">Ireland</a></li>
+							<li><a data-lbl="italy" href="https://www.oracle.com/it/" role="treeitem">Italia</a></li>
+							<li><a data-lbl="kazakhstan" href="https://www.oracle.com/ru/" role="treeitem">Казахстан</a></li>
+							<li><a data-lbl="latvia" href="https://www.oracle.com/lv/" role="treeitem">Latvija</a></li>
+							<li><a data-lbl="lithuania" href="https://www.oracle.com/lt/" role="treeitem">Lietuva</a></li>
+						</ul>
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="luxembourg" href="https://www.oracle.com/lu/" role="treeitem">Luxembourg</a></li>
+							<li><a data-lbl="malta" href="https://www.oracle.com/mt/" role="treeitem">Malta</a></li>
+							<li><a data-lbl="netherlands" href="https://www.oracle.com/nl/" role="treeitem">Nederland</a></li>
+							<li><a data-lbl="norway" href="https://www.oracle.com/no/" role="treeitem">Norge</a></li>
+							<li><a data-lbl="poland" href="https://www.oracle.com/pl/" role="treeitem">Polska</a></li>
+							<li><a data-lbl="portugal" href="https://www.oracle.com/pt/" role="treeitem">Portugal</a></li>
+							<li><a data-lbl="romania" href="https://www.oracle.com/ro/" role="treeitem">România</a></li>
+							<li><a data-lbl="russia" href="https://www.oracle.com/ru/" role="treeitem">Россия и СНГ</a></li>
+							<li><a data-lbl="serbia-and-montenegro" href="https://www.oracle.com/rs/" role="treeitem">Srbija i Crna Gora</a></li>
+							<li><a data-lbl="slovakia" href="https://www.oracle.com/sk/" role="treeitem">Slovensko</a></li>
+							<li><a data-lbl="slovena" href="https://www.oracle.com/si/" role="treeitem">Slovenija</a></li>
+							<li><a data-lbl="spain" href="https://www.oracle.com/es/" role="treeitem">España</a></li>
+							<li><a data-lbl="sweden" href="https://www.oracle.com/se/" role="treeitem">Sverige</a></li>
+							<li><a data-lbl="switzerland-french" href="https://www.oracle.com/ch-fr/" role="treeitem">Suisse-Français</a></li>
+							<li><a data-lbl="switzerland-german" href="https://www.oracle.com/ch-de/" role="treeitem">Schweiz-Deutsch</a></li>
+							<li><a data-lbl="turkey" href="https://www.oracle.com/tr/" role="treeitem">Türkiye</a></li>
+							<li><a data-lbl="ukraine" href="https://www.oracle.com/ua/" role="treeitem">Україна</a></li>
+							<li><a data-lbl="united-kingdom" href="https://www.oracle.com/uk/" role="treeitem">United Kingdom</a></li>
+						</ul>
+					</div>
+					<!-- / LVL 2 -->
+				</li>
+				<li>
+					<a class="u10clink" role="treeitem" aria-selected="false" aria-expanded="false" aria-labelledby="">Middle East and Africa</a>
+					<!-- LVL 2 -->
+					<div class="u10cmenu-l2" data-lbl="middle-east-and-africa">
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="africa" href="https://www.oracle.com/africa/" role="treeitem">Africa Region</a></li>
+							<li><a data-lbl="africa-fr" href="https://www.oracle.com/africa-fr/" role="treeitem">Afrique</a></li>
+							<li><a data-lbl="algeria" href="https://www.oracle.com/dz/" role="treeitem">Algéria</a></li>
+							<li><a data-lbl="bahrain" href="https://www.oracle.com/bh/" role="treeitem">Bahrain</a></li>
+							<li><a data-lbl="egypt" href="https://www.oracle.com/eg/" role="treeitem">Egypt</a></li>
+							<li><a data-lbl="ghana" href="https://www.oracle.com/gh/" role="treeitem">Ghana</a></li>
+							<li><a data-lbl="israel" href="https://www.oracle.com/il/" role="treeitem">Israel</a></li>
+							<li><a data-lbl="jordan" href="https://www.oracle.com/jo/" role="treeitem">Jordan</a></li>
+							<li><a data-lbl="kenya" href="https://www.oracle.com/ke/" role="treeitem">Кenya</a></li>
+							<li><a data-lbl="kuwait" href="https://www.oracle.com/kw/" role="treeitem">Kuwait</a></li>
+							<li><a data-lbl="lebanon" href="https://www.oracle.com/lb/" role="treeitem">Lebanon</a></li>
+						</ul>
+						<ul class="u10cmenuc1">
+							<li><a data-lbl="middle-east-arabic" href="https://www.oracle.com/middleeast-ar/" role="treeitem">الشرق الأوسط</a></li>
+							<li><a data-lbl="middle-east-english" href="https://www.oracle.com/middleeast/" role="treeitem">Middle East Region</a></li>
+							<li><a data-lbl="morocco" href="https://www.oracle.com/ma/" role="treeitem">Maroc</a></li>
+							<li><a data-lbl="nigeria" href="https://www.oracle.com/ng/" role="treeitem">Nigeria</a></li>
+							<li><a data-lbl="oman" href="https://www.oracle.com/om/" role="treeitem">Oman</a></li>
+							<li><a data-lbl="qatar" href="https://www.oracle.com/qa/" role="treeitem">Qatar</a></li>
+							<li><a data-lbl="saudi-arabia" href="https://www.oracle.com/sa/" role="treeitem">Saudi Arabia</a></li>
+							<li><a data-lbl="saudi-arabia-arabic" href="https://www.oracle.com/sa-ar/" role="treeitem">المملكة العربية السعودية</a></li>
+							<li><a data-lbl="senegal" href="https://www.oracle.com/sn/" role="treeitem">Sénégal</a></li>
+							<li><a data-lbl="south-africa" href="https://www.oracle.com/za/" role="treeitem">South Africa</a></li>
+							<li><a data-lbl="united-arab-emirates" href="https://www.oracle.com/ae/" role="treeitem">United Arab Emirates</a></li>
+							<li><a data-lbl="united-arab-emirates-arabic" href="https://www.oracle.com/ae-ar/" role="treeitem">الإمارات العربية المتحدة</a></li>
+						</ul>
+					</div>
+					<!-- / LVL 2 -->
+				</li>
+			</ul>
+		</div>
+	</div></div></li>
+<li><div id="teconsent" consent="undefined" aria-label="Open Cookie Preferences Modal" role="complementary" style="display: block;"><script async="async" type="text/javascript" crossorigin="" src="index_files/v1.7-14"></script><a id="icon-id08544153981444442" tabindex="0" style="cursor: pointer;" lang="en">Cookie Preferences</a></div></li>
+<li><a data-lbl="ad-choices" href="https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html#adchoices">Ad Choices</a></li>
+<li><a data-lbl="careers" href="https://www.oracle.com/corporate/careers/">Careers</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+<!-- /U10v0 -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+
+	</div>
+
+	
+<!-- Container/Display Start -->
+
+<!-- BEGIN: oWidget_C/_Raw-Text/Display -->
+<!-- Start - End Body Admin Container -->
+<!-- Start SiteCatalyst code -->
+<script language="JavaScript" src="index_files/ora_ocom.js"></script><script type="text/javascript" src="index_files/ora_code_ocom.js"></script><script type="text/javascript" src="index_files/ora_code.js"></script><iframe style="display: none;" name="trustarc_notice" id="trustarcNoticeFrame" src="index_files/get.html"></iframe>
+<!-- End SiteCatalyst code -->
+<!--DTM embed code - Footer -->
+<script type="text/javascript">_satellite.pageBottom();</script><script>_satellite["__runScript3"](function(event, target) {
+var iTag = document.createElement("script"),infinityProdScript = "";
+
+/* Deploy the Infinity prod tag specific to each domain */
+if (location.host == "www.oracle.com") {
+    if (location.pathname.indexOf("/partners") != -1) {
+      infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/partners/odc.js?_ora.context=analytics:production"
+    } else {
+      infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/oracle/odc.js?_ora.context=analytics:production"
+    }  
+} else if (location.host == "community.oracle.com") {
+    infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/oraclecommunity/odc.js?_ora.context=analytics:production";
+} else if (location.host == "blogs.oracle.com" || location.host == "www.ateam-oracle.com") {
+    infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/oracleblogs/odc.js?_ora.context=analytics:production";
+} else if (location.host == "developer.oracle.com") {
+    infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/oracledeveloper/odc.js?_ora.context=analytics:production";
+} else if (location.host == "go.java") {
+    infinityProdScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/gojava/odc.js?_ora.context=analytics:production";
+}
+iTag.src = infinityProdScript;
+iTag.async = true;
+iTag.type = 'text/javascript';
+document.head.appendChild(iTag);       
+});</script><script>
+/* Create the Eloqua tracking array if it doesn't exist */
+var _elqQ = _elqQ || [];
+var elq_path = '/i/';
+var elq_global = 'elqCfg.min.js'
+/* Eloqua server (root) */				
+var elq_root = '//img03.en25.com';					// Eloqua ONLY has production
+var elq_prodID = '1973398186';						// Eloqua PROD instance
+var elq_devID  = '30554202';						// Eloqua DEV instance
+
+/* Set up and send the Eloqua ping to Eloqua PROD instance, but only send web site PRODUCTION data. */
+_elqQ.push(['elqSetSiteId', elq_prodID]);
+_elqQ.push(['elqUseFirstPartyCookie', 'go.oracle.com']);              //For PROD
+_elqQ.push(['elqTrackPageView']);
+
+/* The function to insert the asyncronous JavaScript into the page once the DOM has loaded */
+(function () {
+  function async_load() {
+    var s = document.createElement('script'); 
+    s.type = 'text/javascript'; 
+    s.async = true;
+    s.src = '//img03.en25.com/i/elqCfg.min.js';
+    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  }
+  if(window.jQuery) {
+	  jQuery(document).ready(function($) { async_load(); });
+	} else {
+		document.addEventListener("DOMContentLoaded", function(event) { async_load(); });	
+	}
+})();
+
+</script><script>
+		window.sc_channel = 'SC Ocom';
+    if(window.location.pathname.indexOf('technetwork') != -1){
+    	window.sc_channel = "SC OTN";
+    }
+  
+  	var sc_product = _satellite.getVar('salesChatProductId');
+    var x = document.getElementsByClassName("atgchat-link");
+    for (var i = 0; i < x.length; i++) {
+    name = "ochat";
+        arr = x[i].className.split(" ");
+        if (arr.indexOf(name) == -1) {
+            x[i].className += " " + name;
+        }
+   }
+   
+   var oChatScript = document.createElement('script');
+	oChatScript.type = 'text/javascript';
+	oChatScript.src = "//www.oracle.com/asset/web/js/oracle-chat.js";
+	oChatScript.id = "oracle_chat";
+	oChatScript.async = false;
+	oChatScript.setAttribute("data-path", "/asset/web/json/chat-translation-data.json");
+	oChatScript.setAttribute("data-scchannel", window.sc_channel);
+    if(window.location.pathname.indexOf('corporate/events/live/new-autonomous-services/') != -1) {
+      oChatScript.setAttribute("data-nosidewall", "");
+    }
+	document.body.appendChild(oChatScript);
+</script><script type="text/javascript" src="index_files/oracle-chat.js" id="oracle_chat" data-path="/asset/web/json/chat-translation-data.json" data-scchannel="SC Ocom"></script>
+<!-- <script data-reqjq src="//www.oracle.com/asset/web/js/oracle-chat.js" onload="this.setAttribute('data-scchannel',window.sc_channel)" id="oracle_chat" data-path="/asset/web/json/chat-translation-data.json"></script> --><script>
+// Declare Bluekai variables.
+window.bluekai = {};
+window.bluekai.loaded = "NotSet";
+var consent_level = _satellite.getVar('trusteConsent');
+
+var isStage = (  location.host.indexOf('-stage') != -1    ||
+				location.host.indexOf('-content') != -1  ||
+				location.host.indexOf('localhost') != -1 ||
+				location.host.indexOf('.us.oracle.com') != -1 ||
+				location.host.indexOf('127.0.0.1') != -1 ||				
+				location.host.indexOf('-dev') != -1 ||
+				location.host.indexOf('www-sites') != -1
+			 )
+
+var ora_bk_version = 'bkIn:1.0:v1.3:SentTo' + (isStage) ? 26595 : 25867;  
+window.bk_async = function() {
+  bkTagID = (isStage) ? 26595 : 25867;
+  bk_addPageCtx("contTop", (typeof(contTop) !== 'undefined') ? contTop : '');
+  bk_addPageCtx("contLang", (typeof(language_value) !== 'undefined') ? language_value : '');
+  bk_addPageCtx("prodInt", (typeof(prodInt) !== 'undefined') ? prodInt : '');
+  bk_addPageCtx("pgname", (typeof(bk_pgname) !== 'undefined') ? bk_pgname : '');
+  bk_allow_multiple_calls = true;
+  BKTAG.doTag(bkTagID, 1);
+	setTimeout(function(){
+      (function() {
+        // Check cached data is valid to use
+        /*if(validateBlukeCacheData()){
+          var cachedData = window.localStorage.getItem('BlueKaiCampaigns');
+          cachedData = JSON.parse(cachedData);
+          window.dataLayerObject.user.campaigns = cachedData.campaigns;
+          window.bluekai = cachedData.bluekai;
+        }else {*/
+        if (window.dataLayerObject.maxymiserDeployed != undefined && window.dataLayerObject.maxymiserDeployed == true) {
+          callBluekaiScript();
+        }
+        //}
+      }());
+    },1000); // load bluekai json script.
+};
+
+var bk_scripts = document.getElementsByTagName('script')[0];
+var bk_s = document.createElement('script');
+bk_s.async = true;
+bk_s.src = "//tags.bkrtx.com/js/bk-coretag.js";
+bk_scripts.parentNode.insertBefore(bk_s, bk_scripts);
+
+
+/* Function to call Bluekai 46606 json return */
+function callBluekaiScript() {
+  if(window.jQuery) {
+      // Create request object.
+			var xhr;
+
+			if(xhr && xhr.readyState != 4 && xhr.readyState != 0){
+			  xhr.abort();
+			}
+			// Ajax Request to get the Bluekai data.
+			xhr = jQuery.ajax({
+			  url: "//tags.bluekai.com/site/46606?ret=js",
+			  type: "GET" ,
+			  dataType:  "script",
+			  cache: true,
+			  crossDomain: true,
+			  timeout: 4000,
+			  success: function(a) {
+				if (window.bk_results) {
+					window.dataLayerObject.user.campaigns.status = "loaded";
+					bkCampaigns(); // Call the function to read data for Campaigns - 280341/280343/280348/280349
+					document.cookie = "ORA_WWW_ABMDATA="+JSON.stringify(window.bluekai) + "; path=/"; // Store data for Campaigns to Cookie - 280341/280343/280348/280349
+					maptoDataLayer(); // Call the function to map json data to Datalayer object.
+                    //cacheBlueKaiData(); // Store bluekai data on browser local storage and set expire date ro 24 Hours 
+				}        
+			  },
+			  error: function(e) {
+				  window.bluekai.loaded = "NoResponse"; // Failed to load Bluekai data.
+				  window.dataLayerObject.user.campaigns.status = "NoResponse"; // If the bluekai API call fails, set Status to 'NoResponse'
+                  //cacheBlueKaiData(); // Store bluekai data on browser local storage and set expire date ro 24 Hours
+			  }
+			});  
+	} else {
+	    // If jQuery is not found, use plain javascript to load bluekai json.
+			var s = document.createElement('script'); 
+			s.type = 'text/javascript'; 
+			s.async = true;
+			s.src = "//tags.bluekai.com/site/46606?ret=js";
+			s.onload = function() {
+        if (window.bk_results) {
+			      window.dataLayerObject.user.campaigns.status = "loaded";
+			      bkCampaigns(); // Call the function to read data for Campaigns - 280341/280343/280348/280349
+            document.cookie = "ORA_WWW_ABMDATA=" + JSON.stringify(window.bluekai) + "; path=/"; // Store data for Campaigns to Cookie - 280341/280343/280348/280349
+            maptoDataLayer(); // Call the function to map json data to Datalayer object.
+        } else {
+            window.bluekai.loaded = "NoResponse"; // Failed to load Bluekai data.
+            window.dataLayerObject.user.campaigns.status = "NoResponse"; // If the bluekai API call fails, set Status to 'NoResponse' 
+        }  
+      };
+      document.getElementsByTagName('script')[0].appendChild(s);
+      //cacheBlueKaiData(); // Store bluekai data on browser local storage and set expire date ro 24 Hours
+  }
+}  
+
+/* Function to read the bluekai data to window.bluekai object. */
+function bkCampaigns() {
+    // Set the values to Bluekai object.
+    window.bluekai.loaded = (window.bk_results.campaigns.length > 0) ? "loaded" : window.bluekai.loaded;
+    window.bluekai.data = [];
+    window.bluekai.bkId = 'NoValue';
+
+    // Loop through the list of campaigns to retrieve the categories.
+    for (var x in window.bk_results.campaigns) {
+       var campaignId = window.bk_results.campaigns[x].campaign;
+       if (campaignId == '280343' || campaignId == '280341' || campaignId == '280349' || campaignId == '280348') {
+            var data_obj = {};
+            data_obj['campaignId'] = campaignId;
+            data_obj['categories'] = mapCategories(window.bk_results.campaigns[x]);
+            window.bluekai.data.push(data_obj);
+       }
+       // Set bk value to bkId.
+       if(window.bluekai.bkId == 'NoValue' && window.bk_results.campaigns[x].bk) {
+         window.bluekai.bkId = window.bk_results.campaigns[x].bk;
+       }
+    }  // End of for loop.
+}
+
+/* Function to map Bluekai json return data to DataLayer object */
+function maptoDataLayer() {
+	  //assign bk_result to dataLayerObject
+  	if(window.bk_results && window.dataLayerObject && window.dataLayerObject.user.campaigns.status == "loaded") {
+      if(window.bk_results.campaigns.length > 0) {
+        window.dataLayerObject.user.campaigns.data = window.bk_results.campaigns;
+      } else {
+      	window.dataLayerObject.user.campaigns.data = [];
+      }
+  	}
+}
+
+/* Function to map the categories for a campaign */
+function mapCategories(campaign) {
+	var campaignSet = [];
+	if(campaign.categories != null) {
+		for (var j = campaign.categories.length; j--;) {
+			campaignSet.push(campaign.categories[j].categoryID);
+    }
+  } else {
+		campaignSet = ["NoValue"];
+	}
+	return campaignSet;
+}
+
+/* Function to cache bluekai data */
+/*function cacheBlueKaiData() {
+   var expireDate = new Date().getTime() + (24 * 60 * 60 * 1000), // 24Hours
+   data = {
+     'campaigns': window.dataLayerObject.user.campaigns,
+     't': expireDate,
+     'privacy': {
+         'consentDecision': window.dataLayerObject.privacy.consentDecision,
+         'dnt': window.dataLayerObject.privacy.dnt
+      },
+     'bluekai': window.bluekai  
+  };
+  window.localStorage.setItem('BlueKaiCampaigns',JSON.stringify(data));
+}*/
+
+// Function to validate bluekai Cache object
+/*function validateBlukeCacheData() {
+  var status=false;
+  // Check cached data exists
+  if(window.localStorage.getItem('BlueKaiCampaigns')){
+      var cachedData = window.localStorage.getItem('BlueKaiCampaigns');
+      cachedData = JSON.parse(cachedData);
+      //check data expired?
+      if(new Date().getTime() < cachedData.t){
+        //Check for truste change
+        if(cachedData.privacy.dnt === window.dataLayerObject.privacy.dnt && ( JSON.stringify(window.dataLayerObject.privacy.consentDecision) == JSON.stringify(cachedData.privacy.consentDecision)) ){
+           status = true;
+         }
+      }
+  }
+  return status;
+}*/
+
+</script>
+<!--End-->
+<!-- End - End Body Admin Container -->
+
+
+
+<!-- END: oWidget_C/_Raw-Text/Display -->
+
+<!-- Container/Display end -->
+
+
+<!-- end : ocom/common/global/components/framework/layoutAssetEndBodyInfo -->
+
+
+	<noscript><img src="https://www.oracle.com/akam/11/pixel_4704bc1?a=dD1hMTRiYWQ4YzRiNDcyOGE3MGZiYWRhOTBlMjkyN2IwNDU3NTc5NDNlJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
+	
+<div id="oReactiveChatContainer" style="display:none" class="rn_ConditionalChatLink rn_ChatAvailable"><div id="atgchat-flyout" class="rn_ChatAvailable"><a id="rn_sccl_4499221_Link" href="javascript:void(0);" onclick="sccl_4499221.chatLinkClicked();"><div id="atgchat-flyout-info" class="rn_ChatAvailable">&nbsp;<span>Chat</span></div></a></div><div id="oProactiveChat" style="display: block;"><div class="yui-panel-container yui-dialog yui-simple-dialog shadow" id="rn_Dialog_0_c" style="visibility: visible; left: 1576px; top: 936px; z-index: 9999;"><div id="rn_Dialog_0" class="yui-module yui-overlay yui-panel rn_Dialog" style="visibility: inherit;"><div class="bd"><div id="rn_SyndicatedChat_spac_4674211" class="rn_SyndicatedChatBody" role="alert">
+    <div class="rn_SyndicatedChatLogoImageDiv">
+        <img src="index_files/orcl_logo.png" alt="">
+         </div>
+    <div class="rn_SyndicatedChatHeaderLabelDiv">
+        <div class="rn_SyndicatedChatHeaderLabel">
+                    </div>
+    </div>
+    <div class="rn_SyndicatedChatQuestionDiv">
+        <div class="rn_SyndicatedChatQuestionLabel">
+            A Chat Assistant is available to help. Would you like to start the session?        </div>
+    </div>
+    <div class="rn_SyndicatedChatAvatarDiv">
+        <img src="index_files/chat.jpg" alt="Helpful person waiting to chat with you">
+     </div>
+</div>
+<form name="frm_rn_Dialog_0"><input type="hidden" name="rn_Dialog_0" value=""><input type="hidden" name="rn_Dialog_0" value=""></form></div><div class="ft"><span id="rn_DialogButton_rn_Dialog_0_0" class="yui-button yui-button-button"><span class="first-child"><button type="button" id="rn_DialogButton_rn_Dialog_0_0-button">Yes</button></span></span><span id="rn_DialogButton_rn_Dialog_0_1" class="yui-button yui-button-button"><span class="first-child"><button type="button" id="rn_DialogButton_rn_Dialog_0_1-button">No</button></span></span><div id="spac_4674211_RefuseDiv" class="rn_RefuseDiv"><input type="checkbox" id="spac_4674211_RefuseCheckbox" class="rn_SyndicatedCheckbox"><label class="rn_SyndicatedLabel" for="spac_4674211_RefuseCheckbox">Do not ask again</label></div></div><a class="container-close" href="#">Close</a></div><div class="underlay"></div></div></div></div><div class="ochat_slideout" data-trackas="ochat_slideout"><ul class="ochat_slidew2 active"><div class="ochat_flyout flyout-show flyout-fadein"><a href="#close" data-lbl="proactive:flyout-close" data-trackas="ochat-proactive-flyout" id="ochat-flyoutclose"></a><a href="#saleschat" data-lbl="proactive:chatcta" data-trackas="proactive-chat-cta" class="procta chatcta">Start chat</a><a href="https://www.oracle.com/corporate/contact/global.html" class="callcta icn-callring">Contact or call</a></div><li class="ochaticon1"><a href="#" data-lbl="chatslideout" class="ochat"></a></li></ul></div><div class="ochat_modal" data-trackas="ochat-modal" id="ochat_modal"><div class="ochat_modalw1"><div class="ochat_modalw2"><div id="proactivewrap" class="chatwrap"></div><a href="#closemodal" data-lbl="callchat:modal-close" id="chatclose"></a><a href="#minimize" data-lbl="callchat:modal-minimize" id="chatmin"></a><section class="ochat_panel ochat_sales iframechatwrap"><strong class="ochattitle">Sales Chat<a data-type="ochat_sales" class="ochaticon iframechat icnclass icnchat" target="_window" href="#saleschat"></a></strong><a href="#saleschat" data-lbl="sales:chatcta" data-type="ochat_sales" class="subcta iframechat ochat_sales" target="_window"><p class="ochatsub">Considering a purchase?</p></a><a href="https://www.oracle.com/corporate/contact/global.html" class="callcta">Call sales</a><a href="#saleschat" data-lbl="sales:chatcta" data-type="ochat_sales" class="chatcta iframechat ochat_sales" target="_window">Start chat</a></section><div id="ochat_sales" class="chatwrap"></div><section class="ochat_panel ochat_cloud iframechatwrap"><strong class="ochattitle">Cloud Support Chat<a data-type="ochat_cloud" class="ochaticon iframechat icnclass icnchat" target="_window" href="https://oc-cx-en.custhelp.com/app/chat/chat_launch/incidents.c$sc_country/170"></a></strong><a href="https://oc-cx-en.custhelp.com/app/chat/chat_launch/incidents.c$sc_country/170" data-lbl="cloud:chatcta" data-type="ochat_cloud" class="subcta iframechat ochat_cloud" target="_window"><p class="ochatsub">Need trial, technical, functional support?</p></a><a href="https://oc-cx-en.custhelp.com/app/chat/chat_launch/incidents.c$sc_country/170" data-lbl="cloud:chatcta" data-type="ochat_cloud" class="chatcta iframechat ochat_cloud" target="_window">Start chat</a></section><div id="ochat_cloud" class="chatwrap"></div><section class="ochat_panel ochat_support"><strong class="ochattitle">Oracle Support Options<a class="ochaticon icnclass icnsupport" target="_window" href="https://www.oracle.com/support/support-options.html"></a></strong><a href="https://www.oracle.com/support/support-options.html" data-lbl="support:chatcta" class="subcta" target="_window"><p class="ochatsub">Have a support request?</p></a><a href="https://www.oracle.com/support/support-options.html" data-lbl="support:chatcta" class="chatcta" target="_window">View support options</a></section></div></div></div><iframe name="__bkframe" id="__bkframe" title="bk" style="border: 0px none; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);" src="index_files/a_002.html"></iframe><script>
+function containsAny(e,t){return 0<e.filter(function(e){return-1<t.indexOf(e)}).length}function loadConsiPixel(){var e={nas:"DC-3573281/ubert0/",apac:"DC-1106306/ubert0/",lad:"DC-3573286/ubert0/",emea:"DC-3573292/ubert0/"},t=_satellite.getVar("siteRegion"),n=["event2","event10","event11","event15","event18","event22","event26"];if(window.s&&s.events&&containsAny(s.events.split(","),n)){var a=_satellite.getVar("scData"),o=_satellite.getVar("metaDataLayer");o.keywords=o.keywords?o.keywords:"Not Available";Math.random();1==_satellite.getVar("apacRegion")&&"1106306",gtag("event","conversion",{allow_custom_scripts:!0,u1:a.pageName,u10:"[ZIP]",u11:decodeURIComponent(a.userAction),u12:a.globalId,u13:"[COMPANY SIZE]",u14:a.videoTitle,u15:a.linkName,u16:a.fileDownload,u17:decodeURIComponent(a.pageURL),u2:a.siteId,u3:a.userType,u4:o.keywords,u5:a.loginStatus,u6:"[COMPANY]",u7:"[JOB TITLE]",u8:"[CITY]",u9:"[STATE]",send_to:e[t]+"consi0+standard"})}}"undefined"!=typeof gtag?loadConsiPixel():setTimeout(function(){loadConsiPixel()},1e3);
+</script><script>
+function loadAwarenessPixel(){var e={nas:"DC-3573281/ubert0/",apac:"DC-1106306/ubert0/",lad:"DC-3573286/ubert0/",emea:"DC-3573292/ubert0/"},t=_satellite.getVar("siteRegion"),a=_satellite.getVar("scData"),n=["event1","event2","event3","event8","event9","event10","event11","event15","event18","event22","event23","event26","event27","event51","event52"];if(window.s&&-1==n.indexOf(s.events)&&-1==a.pageName.indexOf("Thank")){var u=_satellite.getVar("metaDataLayer");u.keywords=u.keywords?u.keywords:"Not Available",gtag("event","conversion",{allow_custom_scripts:!0,u1:a.pageName,u2:a.siteId,u3:a.userType,u4:u.keywords,u5:a.loginStatus,u6:"[COMPANY]",u7:"[JOB TITLE]",u8:"[CITY]",u9:"[STATE]",u10:"[ZIP]",u11:a.userAction,u12:a.globalId,u13:"[COMPANY SIZE]",u14:a.videoTitle,u15:a.linkName,u16:a.fileDownload,u17:decodeURIComponent(a.pageURL),send_to:e[t]+"awarn0+unique"})}}"undefined"!=typeof gtag?loadAwarenessPixel():setTimeout(loadAwarenessPixel,1e3);
+</script><iframe style="display: none; visibility: hidden;" src="index_files/activityi.html" width="0" height="0"></iframe><iframe src="javascript:false" title="Action Capture" style="position: absolute; width: 0px; height: 0px; border: 0px none;"></iframe><iframe src="javascript:false" title="Action Capture" style="position: absolute; width: 0px; height: 0px; border: 0px none;"></iframe><script>
+function gtag(){dataLayer.push(arguments)}var regionIds={nas:"DC-3573281",apac:"DC-1106306",lad:"DC-3573286",emea:"DC-3573292"},region=_satellite.getVar("siteRegion"),script=document.createElement("script");script.type="text/javascript",script.async=!0,script.src="https://www.googletagmanager.com/gtag/js?id="+regionIds[region],document.head.appendChild(script),window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config",regionIds[region]);
+</script></body><!-- end : Framework/Generic --></html>

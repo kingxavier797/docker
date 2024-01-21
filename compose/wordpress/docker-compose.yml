@@ -1,0 +1,72 @@
+version: '3'
+
+services:
+        # Defines 2 services below
+        # wordpress: db: and phpmyadmin:
+  wordpress:
+    image: wordpress:4.9.8
+            # We are using wordpress:4.9.8 
+            # to be pulled from docker hub
+    container_name: wordpress
+            # Specify a customed container name,
+            # rather than a default name
+    restart: always
+            # When always is specified, 
+            # the container always restarts.
+    volumes:
+      - ./wphtml:/var/www/html/wphtml
+                # put anything your html images file in
+                # ./wphtml which will be mounted in the
+                # container into /var/www/html/wphtml
+    environment:
+            # wordpress database variables
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: wpdb
+      WORDPRESS_DB_USER: user
+      WORDPRESS_DB_PASSWORD: password
+    ports:
+            # Our ports mapping <host:container>
+      - 8000:80
+      - 8443:443  
+
+  db:
+            # Define the 2nd service db:
+    image: mysql:8
+            # MySQL is a widely used, open-source 
+            # relational database management system (RDBMS).
+            # we are using here mySQL 8.0
+            # to be pulled from docker hub
+            # https://hub.docker.com/_/mysql
+    container_name: mysql
+            # name out database container
+    restart: always
+            # When always is specified, 
+            # the container always restarts.
+    command: "--default-authentication-plugin=mysql_native_password"
+            # instruct that the database should run with 
+            # native password authentication enables.
+    environment:
+            # set mySQL database varables
+            # see at https://hub.docker.com/_/mysql
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: wpdb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+            # A web interface for MySQL and MariaDB
+            # https://hub.docker.com/r/phpmyadmin/phpmyadmin
+            # the php image to be pulled
+            # from docker hub 
+    restart: always
+            # When always is specified, 
+            # the container always restarts.
+    ports:
+      - 3333:80
+        # port mapping for php <host:container>
+    environment:
+            # set PHP env variables see them at
+            # https://hub.docker.com/r/phpmyadmin/phpmyadmin
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORT: password
